@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EBFE3032A1D2BFD001C2EA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3022A1D2BFD001C2EA3 /* AppDelegate.swift */; };
+		1EBFE3052A1D2BFD001C2EA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3042A1D2BFD001C2EA3 /* SceneDelegate.swift */; };
+		1EBFE3072A1D2BFD001C2EA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3062A1D2BFD001C2EA3 /* ViewController.swift */; };
+		1EBFE30A2A1D2BFD001C2EA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBFE3082A1D2BFD001C2EA3 /* Main.storyboard */; };
+		1EBFE30C2A1D2C01001C2EA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EBFE30B2A1D2C01001C2EA3 /* Assets.xcassets */; };
+		1EBFE30F2A1D2C01001C2EA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBFE30D2A1D2C01001C2EA3 /* LaunchScreen.storyboard */; };
+		1EBFE31A2A1D2C02001C2EA3 /* KUTRAVELTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3192A1D2C02001C2EA3 /* KUTRAVELTests.swift */; };
+		1EBFE3242A1D2C02001C2EA3 /* KUTRAVELUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3232A1D2C02001C2EA3 /* KUTRAVELUITests.swift */; };
+		1EBFE3262A1D2C02001C2EA3 /* KUTRAVELUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3252A1D2C02001C2EA3 /* KUTRAVELUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EBFE3162A1D2C02001C2EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EBFE2F72A1D2BFD001C2EA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EBFE2FE2A1D2BFD001C2EA3;
+			remoteInfo = KUTRAVEL;
+		};
+		1EBFE3202A1D2C02001C2EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EBFE2F72A1D2BFD001C2EA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EBFE2FE2A1D2BFD001C2EA3;
+			remoteInfo = KUTRAVEL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EBFE2FF2A1D2BFD001C2EA3 /* KUTRAVEL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KUTRAVEL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBFE3022A1D2BFD001C2EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EBFE3042A1D2BFD001C2EA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1EBFE3062A1D2BFD001C2EA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EBFE3092A1D2BFD001C2EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EBFE30B2A1D2C01001C2EA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EBFE30E2A1D2C01001C2EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EBFE3102A1D2C01001C2EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EBFE3152A1D2C02001C2EA3 /* KUTRAVELTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KUTRAVELTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBFE3192A1D2C02001C2EA3 /* KUTRAVELTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KUTRAVELTests.swift; sourceTree = "<group>"; };
+		1EBFE31F2A1D2C02001C2EA3 /* KUTRAVELUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KUTRAVELUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBFE3232A1D2C02001C2EA3 /* KUTRAVELUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KUTRAVELUITests.swift; sourceTree = "<group>"; };
+		1EBFE3252A1D2C02001C2EA3 /* KUTRAVELUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KUTRAVELUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EBFE2FC2A1D2BFD001C2EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBFE3122A1D2C02001C2EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBFE31C2A1D2C02001C2EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EBFE2F62A1D2BFD001C2EA3 = {
+			isa = PBXGroup;
+			children = (
+				1EBFE3012A1D2BFD001C2EA3 /* KUTRAVEL */,
+				1EBFE3182A1D2C02001C2EA3 /* KUTRAVELTests */,
+				1EBFE3222A1D2C02001C2EA3 /* KUTRAVELUITests */,
+				1EBFE3002A1D2BFD001C2EA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EBFE3002A1D2BFD001C2EA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EBFE2FF2A1D2BFD001C2EA3 /* KUTRAVEL.app */,
+				1EBFE3152A1D2C02001C2EA3 /* KUTRAVELTests.xctest */,
+				1EBFE31F2A1D2C02001C2EA3 /* KUTRAVELUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EBFE3012A1D2BFD001C2EA3 /* KUTRAVEL */ = {
+			isa = PBXGroup;
+			children = (
+				1EBFE3022A1D2BFD001C2EA3 /* AppDelegate.swift */,
+				1EBFE3042A1D2BFD001C2EA3 /* SceneDelegate.swift */,
+				1EBFE3062A1D2BFD001C2EA3 /* ViewController.swift */,
+				1EBFE3082A1D2BFD001C2EA3 /* Main.storyboard */,
+				1EBFE30B2A1D2C01001C2EA3 /* Assets.xcassets */,
+				1EBFE30D2A1D2C01001C2EA3 /* LaunchScreen.storyboard */,
+				1EBFE3102A1D2C01001C2EA3 /* Info.plist */,
+			);
+			path = KUTRAVEL;
+			sourceTree = "<group>";
+		};
+		1EBFE3182A1D2C02001C2EA3 /* KUTRAVELTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EBFE3192A1D2C02001C2EA3 /* KUTRAVELTests.swift */,
+			);
+			path = KUTRAVELTests;
+			sourceTree = "<group>";
+		};
+		1EBFE3222A1D2C02001C2EA3 /* KUTRAVELUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EBFE3232A1D2C02001C2EA3 /* KUTRAVELUITests.swift */,
+				1EBFE3252A1D2C02001C2EA3 /* KUTRAVELUITestsLaunchTests.swift */,
+			);
+			path = KUTRAVELUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EBFE2FE2A1D2BFD001C2EA3 /* KUTRAVEL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBFE3292A1D2C02001C2EA3 /* Build configuration list for PBXNativeTarget "KUTRAVEL" */;
+			buildPhases = (
+				1EBFE2FB2A1D2BFD001C2EA3 /* Sources */,
+				1EBFE2FC2A1D2BFD001C2EA3 /* Frameworks */,
+				1EBFE2FD2A1D2BFD001C2EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KUTRAVEL;
+			productName = KUTRAVEL;
+			productReference = 1EBFE2FF2A1D2BFD001C2EA3 /* KUTRAVEL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EBFE3142A1D2C02001C2EA3 /* KUTRAVELTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBFE32C2A1D2C02001C2EA3 /* Build configuration list for PBXNativeTarget "KUTRAVELTests" */;
+			buildPhases = (
+				1EBFE3112A1D2C02001C2EA3 /* Sources */,
+				1EBFE3122A1D2C02001C2EA3 /* Frameworks */,
+				1EBFE3132A1D2C02001C2EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EBFE3172A1D2C02001C2EA3 /* PBXTargetDependency */,
+			);
+			name = KUTRAVELTests;
+			productName = KUTRAVELTests;
+			productReference = 1EBFE3152A1D2C02001C2EA3 /* KUTRAVELTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EBFE31E2A1D2C02001C2EA3 /* KUTRAVELUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBFE32F2A1D2C02001C2EA3 /* Build configuration list for PBXNativeTarget "KUTRAVELUITests" */;
+			buildPhases = (
+				1EBFE31B2A1D2C02001C2EA3 /* Sources */,
+				1EBFE31C2A1D2C02001C2EA3 /* Frameworks */,
+				1EBFE31D2A1D2C02001C2EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EBFE3212A1D2C02001C2EA3 /* PBXTargetDependency */,
+			);
+			name = KUTRAVELUITests;
+			productName = KUTRAVELUITests;
+			productReference = 1EBFE31F2A1D2C02001C2EA3 /* KUTRAVELUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EBFE2F72A1D2BFD001C2EA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1EBFE2FE2A1D2BFD001C2EA3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1EBFE3142A1D2C02001C2EA3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1EBFE2FE2A1D2BFD001C2EA3;
+					};
+					1EBFE31E2A1D2C02001C2EA3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1EBFE2FE2A1D2BFD001C2EA3;
+					};
+				};
+			};
+			buildConfigurationList = 1EBFE2FA2A1D2BFD001C2EA3 /* Build configuration list for PBXProject "KUTRAVEL" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EBFE2F62A1D2BFD001C2EA3;
+			productRefGroup = 1EBFE3002A1D2BFD001C2EA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EBFE2FE2A1D2BFD001C2EA3 /* KUTRAVEL */,
+				1EBFE3142A1D2C02001C2EA3 /* KUTRAVELTests */,
+				1EBFE31E2A1D2C02001C2EA3 /* KUTRAVELUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EBFE2FD2A1D2BFD001C2EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBFE30F2A1D2C01001C2EA3 /* LaunchScreen.storyboard in Resources */,
+				1EBFE30C2A1D2C01001C2EA3 /* Assets.xcassets in Resources */,
+				1EBFE30A2A1D2BFD001C2EA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBFE3132A1D2C02001C2EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBFE31D2A1D2C02001C2EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EBFE2FB2A1D2BFD001C2EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBFE3072A1D2BFD001C2EA3 /* ViewController.swift in Sources */,
+				1EBFE3032A1D2BFD001C2EA3 /* AppDelegate.swift in Sources */,
+				1EBFE3052A1D2BFD001C2EA3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBFE3112A1D2C02001C2EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBFE31A2A1D2C02001C2EA3 /* KUTRAVELTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBFE31B2A1D2C02001C2EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBFE3262A1D2C02001C2EA3 /* KUTRAVELUITestsLaunchTests.swift in Sources */,
+				1EBFE3242A1D2C02001C2EA3 /* KUTRAVELUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EBFE3172A1D2C02001C2EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EBFE2FE2A1D2BFD001C2EA3 /* KUTRAVEL */;
+			targetProxy = 1EBFE3162A1D2C02001C2EA3 /* PBXContainerItemProxy */;
+		};
+		1EBFE3212A1D2C02001C2EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EBFE2FE2A1D2BFD001C2EA3 /* KUTRAVEL */;
+			targetProxy = 1EBFE3202A1D2C02001C2EA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EBFE3082A1D2BFD001C2EA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EBFE3092A1D2BFD001C2EA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EBFE30D2A1D2C01001C2EA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EBFE30E2A1D2C01001C2EA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EBFE3272A1D2C02001C2EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EBFE3282A1D2C02001C2EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EBFE32A2A1D2C02001C2EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KUTRAVEL/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = begumsen.KUTRAVEL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EBFE32B2A1D2C02001C2EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KUTRAVEL/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = begumsen.KUTRAVEL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1EBFE32D2A1D2C02001C2EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = begumsen.KUTRAVELTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KUTRAVEL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KUTRAVEL";
+			};
+			name = Debug;
+		};
+		1EBFE32E2A1D2C02001C2EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = begumsen.KUTRAVELTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KUTRAVEL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KUTRAVEL";
+			};
+			name = Release;
+		};
+		1EBFE3302A1D2C02001C2EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = begumsen.KUTRAVELUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KUTRAVEL;
+			};
+			name = Debug;
+		};
+		1EBFE3312A1D2C02001C2EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = begumsen.KUTRAVELUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KUTRAVEL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EBFE2FA2A1D2BFD001C2EA3 /* Build configuration list for PBXProject "KUTRAVEL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBFE3272A1D2C02001C2EA3 /* Debug */,
+				1EBFE3282A1D2C02001C2EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBFE3292A1D2C02001C2EA3 /* Build configuration list for PBXNativeTarget "KUTRAVEL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBFE32A2A1D2C02001C2EA3 /* Debug */,
+				1EBFE32B2A1D2C02001C2EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBFE32C2A1D2C02001C2EA3 /* Build configuration list for PBXNativeTarget "KUTRAVELTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBFE32D2A1D2C02001C2EA3 /* Debug */,
+				1EBFE32E2A1D2C02001C2EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBFE32F2A1D2C02001C2EA3 /* Build configuration list for PBXNativeTarget "KUTRAVELUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBFE3302A1D2C02001C2EA3 /* Debug */,
+				1EBFE3312A1D2C02001C2EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EBFE2F72A1D2BFD001C2EA3 /* Project object */;
+}
