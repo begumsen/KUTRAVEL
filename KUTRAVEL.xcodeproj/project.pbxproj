@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CB28A4938E270A5BD2F9572 /* Pods_KUTRAVEL_KUTRAVELUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FD1583BDA793C3584400D6 /* Pods_KUTRAVEL_KUTRAVELUITests.framework */; };
+		1EB978192A1E618600C2D42B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978162A1E618200C2D42B /* SignUpViewController.swift */; };
+		1EB9781A2A1E618600C2D42B /* ProfileScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978172A1E618400C2D42B /* ProfileScreenViewController.swift */; };
+		1EB9781B2A1E618600C2D42B /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978182A1E618600C2D42B /* ResetPasswordViewController.swift */; };
+		1EB978222A1E61E000C2D42B /* HistoryOfHitchhikesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9781C2A1E61D300C2D42B /* HistoryOfHitchhikesTableViewCell.swift */; };
+		1EB978232A1E61E000C2D42B /* HistoryOfRidesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9781D2A1E61D500C2D42B /* HistoryOfRidesTableViewCell.swift */; };
+		1EB978242A1E61E000C2D42B /* HitchListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9781E2A1E61D900C2D42B /* HitchListTableViewCell.swift */; };
+		1EB978252A1E61E000C2D42B /* RideListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9781F2A1E61DC00C2D42B /* RideListTableViewCell.swift */; };
+		1EB978262A1E61E000C2D42B /* RidesAfterSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978202A1E61DE00C2D42B /* RidesAfterSearchTableViewCell.swift */; };
+		1EB978272A1E61E000C2D42B /* RideRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978212A1E61E000C2D42B /* RideRequestTableViewCell.swift */; };
+		1EB978292A1E61EE00C2D42B /* searchRideUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978282A1E61EE00C2D42B /* searchRideUIView.swift */; };
+		1EB978362A1E623300C2D42B /* SignInHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9782A2A1E620100C2D42B /* SignInHelper.swift */; };
+		1EB978372A1E623300C2D42B /* SignInDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9782B2A1E620500C2D42B /* SignInDelegate.swift */; };
+		1EB978382A1E623300C2D42B /* ResetPasswordHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9782C2A1E620A00C2D42B /* ResetPasswordHelper.swift */; };
+		1EB978392A1E623300C2D42B /* SignUpDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9782D2A1E621000C2D42B /* SignUpDelegate.swift */; };
+		1EB9783A2A1E623300C2D42B /* ProfileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9782E2A1E621400C2D42B /* ProfileHelper.swift */; };
+		1EB9783B2A1E623300C2D42B /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9782F2A1E621700C2D42B /* DatabaseManager.swift */; };
+		1EB9783C2A1E623300C2D42B /* SignUpHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978302A1E621A00C2D42B /* SignUpHelper.swift */; };
+		1EB9783D2A1E623300C2D42B /* ProfileDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978312A1E621F00C2D42B /* ProfileDelegate.swift */; };
+		1EB9783E2A1E623300C2D42B /* SecondSignUpDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978322A1E622700C2D42B /* SecondSignUpDelegate.swift */; };
+		1EB9783F2A1E623300C2D42B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978332A1E622C00C2D42B /* User.swift */; };
+		1EB978402A1E623300C2D42B /* ResetPasswordDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978342A1E623000C2D42B /* ResetPasswordDelegate.swift */; };
+		1EB978412A1E623300C2D42B /* SecondSignUpHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978352A1E623300C2D42B /* SecondSignUpHelper.swift */; };
 		1EBFE3032A1D2BFD001C2EA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3022A1D2BFD001C2EA3 /* AppDelegate.swift */; };
 		1EBFE3052A1D2BFD001C2EA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3042A1D2BFD001C2EA3 /* SceneDelegate.swift */; };
 		1EBFE3072A1D2BFD001C2EA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3062A1D2BFD001C2EA3 /* ViewController.swift */; };
@@ -16,6 +39,10 @@
 		1EBFE31A2A1D2C02001C2EA3 /* KUTRAVELTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3192A1D2C02001C2EA3 /* KUTRAVELTests.swift */; };
 		1EBFE3242A1D2C02001C2EA3 /* KUTRAVELUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3232A1D2C02001C2EA3 /* KUTRAVELUITests.swift */; };
 		1EBFE3262A1D2C02001C2EA3 /* KUTRAVELUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3252A1D2C02001C2EA3 /* KUTRAVELUITestsLaunchTests.swift */; };
+		1EBFE3682A1D6544001C2EA3 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3662A1D653B001C2EA3 /* LogInViewController.swift */; };
+		1EBFE3692A1D6544001C2EA3 /* SecondSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3672A1D6544001C2EA3 /* SecondSignUpViewController.swift */; };
+		2D77EB888367D582D1E2FC97 /* Pods_KUTRAVELTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2D14EA34694C2E29AD5951 /* Pods_KUTRAVELTests.framework */; };
+		E57864F4EECB7C28AC35B93F /* Pods_KUTRAVEL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85ABE085CD5F297FE694D7BF /* Pods_KUTRAVEL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +63,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00D6120DBF3195C5BE061122 /* Pods-KUTRAVEL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUTRAVEL.release.xcconfig"; path = "Target Support Files/Pods-KUTRAVEL/Pods-KUTRAVEL.release.xcconfig"; sourceTree = "<group>"; };
+		1EB978162A1E618200C2D42B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1EB978172A1E618400C2D42B /* ProfileScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileScreenViewController.swift; sourceTree = "<group>"; };
+		1EB978182A1E618600C2D42B /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		1EB9781C2A1E61D300C2D42B /* HistoryOfHitchhikesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryOfHitchhikesTableViewCell.swift; sourceTree = "<group>"; };
+		1EB9781D2A1E61D500C2D42B /* HistoryOfRidesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryOfRidesTableViewCell.swift; sourceTree = "<group>"; };
+		1EB9781E2A1E61D900C2D42B /* HitchListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HitchListTableViewCell.swift; sourceTree = "<group>"; };
+		1EB9781F2A1E61DC00C2D42B /* RideListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideListTableViewCell.swift; sourceTree = "<group>"; };
+		1EB978202A1E61DE00C2D42B /* RidesAfterSearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidesAfterSearchTableViewCell.swift; sourceTree = "<group>"; };
+		1EB978212A1E61E000C2D42B /* RideRequestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideRequestTableViewCell.swift; sourceTree = "<group>"; };
+		1EB978282A1E61EE00C2D42B /* searchRideUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchRideUIView.swift; sourceTree = "<group>"; };
+		1EB9782A2A1E620100C2D42B /* SignInHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInHelper.swift; sourceTree = "<group>"; };
+		1EB9782B2A1E620500C2D42B /* SignInDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInDelegate.swift; sourceTree = "<group>"; };
+		1EB9782C2A1E620A00C2D42B /* ResetPasswordHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordHelper.swift; sourceTree = "<group>"; };
+		1EB9782D2A1E621000C2D42B /* SignUpDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpDelegate.swift; sourceTree = "<group>"; };
+		1EB9782E2A1E621400C2D42B /* ProfileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHelper.swift; sourceTree = "<group>"; };
+		1EB9782F2A1E621700C2D42B /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		1EB978302A1E621A00C2D42B /* SignUpHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpHelper.swift; sourceTree = "<group>"; };
+		1EB978312A1E621F00C2D42B /* ProfileDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileDelegate.swift; sourceTree = "<group>"; };
+		1EB978322A1E622700C2D42B /* SecondSignUpDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondSignUpDelegate.swift; sourceTree = "<group>"; };
+		1EB978332A1E622C00C2D42B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1EB978342A1E623000C2D42B /* ResetPasswordDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordDelegate.swift; sourceTree = "<group>"; };
+		1EB978352A1E623300C2D42B /* SecondSignUpHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondSignUpHelper.swift; sourceTree = "<group>"; };
 		1EBFE2FF2A1D2BFD001C2EA3 /* KUTRAVEL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KUTRAVEL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBFE3022A1D2BFD001C2EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EBFE3042A1D2BFD001C2EA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +99,16 @@
 		1EBFE31F2A1D2C02001C2EA3 /* KUTRAVELUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KUTRAVELUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBFE3232A1D2C02001C2EA3 /* KUTRAVELUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KUTRAVELUITests.swift; sourceTree = "<group>"; };
 		1EBFE3252A1D2C02001C2EA3 /* KUTRAVELUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KUTRAVELUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1EBFE3662A1D653B001C2EA3 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		1EBFE3672A1D6544001C2EA3 /* SecondSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSignUpViewController.swift; sourceTree = "<group>"; };
+		427F383B4BC741CBB4091277 /* Pods-KUTRAVEL-KUTRAVELUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUTRAVEL-KUTRAVELUITests.debug.xcconfig"; path = "Target Support Files/Pods-KUTRAVEL-KUTRAVELUITests/Pods-KUTRAVEL-KUTRAVELUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		85ABE085CD5F297FE694D7BF /* Pods_KUTRAVEL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KUTRAVEL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FD1583BDA793C3584400D6 /* Pods_KUTRAVEL_KUTRAVELUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KUTRAVEL_KUTRAVELUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CDE92F9F4C4E7E1A466D72 /* Pods-KUTRAVEL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUTRAVEL.debug.xcconfig"; path = "Target Support Files/Pods-KUTRAVEL/Pods-KUTRAVEL.debug.xcconfig"; sourceTree = "<group>"; };
+		AE2D14EA34694C2E29AD5951 /* Pods_KUTRAVELTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KUTRAVELTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4BA02B53DC4A9C565B5387 /* Pods-KUTRAVEL-KUTRAVELUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUTRAVEL-KUTRAVELUITests.release.xcconfig"; path = "Target Support Files/Pods-KUTRAVEL-KUTRAVELUITests/Pods-KUTRAVEL-KUTRAVELUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C6B3E1C1CDC390B13F201F22 /* Pods-KUTRAVELTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUTRAVELTests.release.xcconfig"; path = "Target Support Files/Pods-KUTRAVELTests/Pods-KUTRAVELTests.release.xcconfig"; sourceTree = "<group>"; };
+		FFF690693FB97462776DA149 /* Pods-KUTRAVELTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUTRAVELTests.debug.xcconfig"; path = "Target Support Files/Pods-KUTRAVELTests/Pods-KUTRAVELTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E57864F4EECB7C28AC35B93F /* Pods_KUTRAVEL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D77EB888367D582D1E2FC97 /* Pods_KUTRAVELTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +132,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CB28A4938E270A5BD2F9572 /* Pods_KUTRAVEL_KUTRAVELUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17336FD8CE2D1B5847CF025D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85ABE085CD5F297FE694D7BF /* Pods_KUTRAVEL.framework */,
+				95FD1583BDA793C3584400D6 /* Pods_KUTRAVEL_KUTRAVELUITests.framework */,
+				AE2D14EA34694C2E29AD5951 /* Pods_KUTRAVELTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1EBFE2F62A1D2BFD001C2EA3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +156,8 @@
 				1EBFE3182A1D2C02001C2EA3 /* KUTRAVELTests */,
 				1EBFE3222A1D2C02001C2EA3 /* KUTRAVELUITests */,
 				1EBFE3002A1D2BFD001C2EA3 /* Products */,
+				76228307F2B8659DCF544B3A /* Pods */,
+				17336FD8CE2D1B5847CF025D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +174,10 @@
 		1EBFE3012A1D2BFD001C2EA3 /* KUTRAVEL */ = {
 			isa = PBXGroup;
 			children = (
+				1EBFE3472A1D2F5B001C2EA3 /* Controller */,
+				1EBFE3382A1D2EC3001C2EA3 /* TableCell */,
+				1EBFE3372A1D2EA3001C2EA3 /* UIView */,
+				1EBFE3362A1D2E7E001C2EA3 /* Model */,
 				1EBFE3022A1D2BFD001C2EA3 /* AppDelegate.swift */,
 				1EBFE3042A1D2BFD001C2EA3 /* SceneDelegate.swift */,
 				1EBFE3062A1D2BFD001C2EA3 /* ViewController.swift */,
@@ -127,6 +206,71 @@
 			path = KUTRAVELUITests;
 			sourceTree = "<group>";
 		};
+		1EBFE3362A1D2E7E001C2EA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1EB9782F2A1E621700C2D42B /* DatabaseManager.swift */,
+				1EB978312A1E621F00C2D42B /* ProfileDelegate.swift */,
+				1EB9782E2A1E621400C2D42B /* ProfileHelper.swift */,
+				1EB978342A1E623000C2D42B /* ResetPasswordDelegate.swift */,
+				1EB9782C2A1E620A00C2D42B /* ResetPasswordHelper.swift */,
+				1EB978322A1E622700C2D42B /* SecondSignUpDelegate.swift */,
+				1EB978352A1E623300C2D42B /* SecondSignUpHelper.swift */,
+				1EB9782B2A1E620500C2D42B /* SignInDelegate.swift */,
+				1EB9782A2A1E620100C2D42B /* SignInHelper.swift */,
+				1EB9782D2A1E621000C2D42B /* SignUpDelegate.swift */,
+				1EB978302A1E621A00C2D42B /* SignUpHelper.swift */,
+				1EB978332A1E622C00C2D42B /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1EBFE3372A1D2EA3001C2EA3 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				1EB978282A1E61EE00C2D42B /* searchRideUIView.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		1EBFE3382A1D2EC3001C2EA3 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				1EB9781C2A1E61D300C2D42B /* HistoryOfHitchhikesTableViewCell.swift */,
+				1EB9781D2A1E61D500C2D42B /* HistoryOfRidesTableViewCell.swift */,
+				1EB9781E2A1E61D900C2D42B /* HitchListTableViewCell.swift */,
+				1EB9781F2A1E61DC00C2D42B /* RideListTableViewCell.swift */,
+				1EB978212A1E61E000C2D42B /* RideRequestTableViewCell.swift */,
+				1EB978202A1E61DE00C2D42B /* RidesAfterSearchTableViewCell.swift */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		1EBFE3472A1D2F5B001C2EA3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1EBFE3662A1D653B001C2EA3 /* LogInViewController.swift */,
+				1EB978172A1E618400C2D42B /* ProfileScreenViewController.swift */,
+				1EB978182A1E618600C2D42B /* ResetPasswordViewController.swift */,
+				1EB978162A1E618200C2D42B /* SignUpViewController.swift */,
+				1EBFE3672A1D6544001C2EA3 /* SecondSignUpViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		76228307F2B8659DCF544B3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2CDE92F9F4C4E7E1A466D72 /* Pods-KUTRAVEL.debug.xcconfig */,
+				00D6120DBF3195C5BE061122 /* Pods-KUTRAVEL.release.xcconfig */,
+				427F383B4BC741CBB4091277 /* Pods-KUTRAVEL-KUTRAVELUITests.debug.xcconfig */,
+				AE4BA02B53DC4A9C565B5387 /* Pods-KUTRAVEL-KUTRAVELUITests.release.xcconfig */,
+				FFF690693FB97462776DA149 /* Pods-KUTRAVELTests.debug.xcconfig */,
+				C6B3E1C1CDC390B13F201F22 /* Pods-KUTRAVELTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1EBFE3292A1D2C02001C2EA3 /* Build configuration list for PBXNativeTarget "KUTRAVEL" */;
 			buildPhases = (
+				8E8044AD90BE14AA90C4E4E9 /* [CP] Check Pods Manifest.lock */,
 				1EBFE2FB2A1D2BFD001C2EA3 /* Sources */,
 				1EBFE2FC2A1D2BFD001C2EA3 /* Frameworks */,
 				1EBFE2FD2A1D2BFD001C2EA3 /* Resources */,
+				9A76C1E5BC7C174A7521FF28 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +297,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1EBFE32C2A1D2C02001C2EA3 /* Build configuration list for PBXNativeTarget "KUTRAVELTests" */;
 			buildPhases = (
+				FAC40180156E983A31C27FCB /* [CP] Check Pods Manifest.lock */,
 				1EBFE3112A1D2C02001C2EA3 /* Sources */,
 				1EBFE3122A1D2C02001C2EA3 /* Frameworks */,
 				1EBFE3132A1D2C02001C2EA3 /* Resources */,
@@ -169,9 +316,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1EBFE32F2A1D2C02001C2EA3 /* Build configuration list for PBXNativeTarget "KUTRAVELUITests" */;
 			buildPhases = (
+				339105D791F789798612A0AA /* [CP] Check Pods Manifest.lock */,
 				1EBFE31B2A1D2C02001C2EA3 /* Sources */,
 				1EBFE31C2A1D2C02001C2EA3 /* Frameworks */,
 				1EBFE31D2A1D2C02001C2EA3 /* Resources */,
+				B5B8277C1CDB42714365E76E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +402,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		339105D791F789798612A0AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KUTRAVEL-KUTRAVELUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E8044AD90BE14AA90C4E4E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KUTRAVEL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A76C1E5BC7C174A7521FF28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KUTRAVEL/Pods-KUTRAVEL-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KUTRAVEL/Pods-KUTRAVEL-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KUTRAVEL/Pods-KUTRAVEL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5B8277C1CDB42714365E76E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KUTRAVEL-KUTRAVELUITests/Pods-KUTRAVEL-KUTRAVELUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KUTRAVEL-KUTRAVELUITests/Pods-KUTRAVEL-KUTRAVELUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KUTRAVEL-KUTRAVELUITests/Pods-KUTRAVEL-KUTRAVELUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAC40180156E983A31C27FCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KUTRAVELTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1EBFE2FB2A1D2BFD001C2EA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EB978262A1E61E000C2D42B /* RidesAfterSearchTableViewCell.swift in Sources */,
+				1EB978242A1E61E000C2D42B /* HitchListTableViewCell.swift in Sources */,
+				1EB978382A1E623300C2D42B /* ResetPasswordHelper.swift in Sources */,
+				1EB978292A1E61EE00C2D42B /* searchRideUIView.swift in Sources */,
+				1EBFE3682A1D6544001C2EA3 /* LogInViewController.swift in Sources */,
+				1EB978222A1E61E000C2D42B /* HistoryOfHitchhikesTableViewCell.swift in Sources */,
+				1EB978412A1E623300C2D42B /* SecondSignUpHelper.swift in Sources */,
 				1EBFE3072A1D2BFD001C2EA3 /* ViewController.swift in Sources */,
+				1EB978372A1E623300C2D42B /* SignInDelegate.swift in Sources */,
+				1EB978232A1E61E000C2D42B /* HistoryOfRidesTableViewCell.swift in Sources */,
+				1EB978392A1E623300C2D42B /* SignUpDelegate.swift in Sources */,
+				1EBFE3692A1D6544001C2EA3 /* SecondSignUpViewController.swift in Sources */,
+				1EB9781A2A1E618600C2D42B /* ProfileScreenViewController.swift in Sources */,
 				1EBFE3032A1D2BFD001C2EA3 /* AppDelegate.swift in Sources */,
+				1EB9783F2A1E623300C2D42B /* User.swift in Sources */,
+				1EB9783B2A1E623300C2D42B /* DatabaseManager.swift in Sources */,
 				1EBFE3052A1D2BFD001C2EA3 /* SceneDelegate.swift in Sources */,
+				1EB978192A1E618600C2D42B /* SignUpViewController.swift in Sources */,
+				1EB9783E2A1E623300C2D42B /* SecondSignUpDelegate.swift in Sources */,
+				1EB978272A1E61E000C2D42B /* RideRequestTableViewCell.swift in Sources */,
+				1EB978402A1E623300C2D42B /* ResetPasswordDelegate.swift in Sources */,
+				1EB9783D2A1E623300C2D42B /* ProfileDelegate.swift in Sources */,
+				1EB9781B2A1E618600C2D42B /* ResetPasswordViewController.swift in Sources */,
+				1EB9783C2A1E623300C2D42B /* SignUpHelper.swift in Sources */,
+				1EB978362A1E623300C2D42B /* SignInHelper.swift in Sources */,
+				1EB978252A1E61E000C2D42B /* RideListTableViewCell.swift in Sources */,
+				1EB9783A2A1E623300C2D42B /* ProfileHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +708,7 @@
 		};
 		1EBFE32A2A1D2C02001C2EA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2CDE92F9F4C4E7E1A466D72 /* Pods-KUTRAVEL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +736,7 @@
 		};
 		1EBFE32B2A1D2C02001C2EA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00D6120DBF3195C5BE061122 /* Pods-KUTRAVEL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +764,7 @@
 		};
 		1EBFE32D2A1D2C02001C2EA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF690693FB97462776DA149 /* Pods-KUTRAVELTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +784,7 @@
 		};
 		1EBFE32E2A1D2C02001C2EA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B3E1C1CDC390B13F201F22 /* Pods-KUTRAVELTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +804,7 @@
 		};
 		1EBFE3302A1D2C02001C2EA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 427F383B4BC741CBB4091277 /* Pods-KUTRAVEL-KUTRAVELUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +822,7 @@
 		};
 		1EBFE3312A1D2C02001C2EA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4BA02B53DC4A9C565B5387 /* Pods-KUTRAVEL-KUTRAVELUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
