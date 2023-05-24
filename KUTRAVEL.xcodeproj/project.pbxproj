@@ -46,6 +46,11 @@
 		1EBFE3682A1D6544001C2EA3 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3662A1D653B001C2EA3 /* LogInViewController.swift */; };
 		1EBFE3692A1D6544001C2EA3 /* SecondSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3672A1D6544001C2EA3 /* SecondSignUpViewController.swift */; };
 		2D77EB888367D582D1E2FC97 /* Pods_KUTRAVELTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2D14EA34694C2E29AD5951 /* Pods_KUTRAVELTests.framework */; };
+		54D4FF342A1E9E3E00E237F9 /* HitchhikeStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4FF332A1E9E3E00E237F9 /* HitchhikeStatusViewController.swift */; };
+		54D4FF362A1E9E7D00E237F9 /* MyHitchesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4FF352A1E9E7D00E237F9 /* MyHitchesDataSource.swift */; };
+		54D4FF382A1E9EE700E237F9 /* Hitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4FF372A1E9EE700E237F9 /* Hitch.swift */; };
+		54D4FF3A2A1E9EFE00E237F9 /* MyHitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4FF392A1E9EFE00E237F9 /* MyHitch.swift */; };
+		54D4FF3C2A1E9F2500E237F9 /* MyHitchesDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4FF3B2A1E9F2500E237F9 /* MyHitchesDataDelegate.swift */; };
 		E57864F4EECB7C28AC35B93F /* Pods_KUTRAVEL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85ABE085CD5F297FE694D7BF /* Pods_KUTRAVEL.framework */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +115,11 @@
 		1EBFE3662A1D653B001C2EA3 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		1EBFE3672A1D6544001C2EA3 /* SecondSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSignUpViewController.swift; sourceTree = "<group>"; };
 		427F383B4BC741CBB4091277 /* Pods-KUTRAVEL-KUTRAVELUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUTRAVEL-KUTRAVELUITests.debug.xcconfig"; path = "Target Support Files/Pods-KUTRAVEL-KUTRAVELUITests/Pods-KUTRAVEL-KUTRAVELUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54D4FF332A1E9E3E00E237F9 /* HitchhikeStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HitchhikeStatusViewController.swift; sourceTree = "<group>"; };
+		54D4FF352A1E9E7D00E237F9 /* MyHitchesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHitchesDataSource.swift; sourceTree = "<group>"; };
+		54D4FF372A1E9EE700E237F9 /* Hitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hitch.swift; sourceTree = "<group>"; };
+		54D4FF392A1E9EFE00E237F9 /* MyHitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHitch.swift; sourceTree = "<group>"; };
+		54D4FF3B2A1E9F2500E237F9 /* MyHitchesDataDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHitchesDataDelegate.swift; sourceTree = "<group>"; };
 		85ABE085CD5F297FE694D7BF /* Pods_KUTRAVEL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KUTRAVEL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95FD1583BDA793C3584400D6 /* Pods_KUTRAVEL_KUTRAVELUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KUTRAVEL_KUTRAVELUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2CDE92F9F4C4E7E1A466D72 /* Pods-KUTRAVEL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUTRAVEL.debug.xcconfig"; path = "Target Support Files/Pods-KUTRAVEL/Pods-KUTRAVEL.debug.xcconfig"; sourceTree = "<group>"; };
@@ -217,6 +227,10 @@
 		1EBFE3362A1D2E7E001C2EA3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				54D4FF372A1E9EE700E237F9 /* Hitch.swift */,
+				54D4FF352A1E9E7D00E237F9 /* MyHitchesDataSource.swift */,
+				54D4FF392A1E9EFE00E237F9 /* MyHitch.swift */,
+				54D4FF3B2A1E9F2500E237F9 /* MyHitchesDataDelegate.swift */,
 				1EB978482A1E7B9F00C2D42B /* Ride.swift */,
 				1EB978452A1E7B1100C2D42B /* MyRidesDataDelegate.swift */,
 				1EB978442A1E7B0400C2D42B /* MyRidesDataSource.swift */,
@@ -260,6 +274,7 @@
 		1EBFE3472A1D2F5B001C2EA3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				54D4FF332A1E9E3E00E237F9 /* HitchhikeStatusViewController.swift */,
 				1EB978422A1E7A8800C2D42B /* MyRidesViewController.swift */,
 				1EBFE3662A1D653B001C2EA3 /* LogInViewController.swift */,
 				1EB978172A1E618400C2D42B /* ProfileScreenViewController.swift */,
@@ -524,18 +539,22 @@
 			files = (
 				1EB978262A1E61E000C2D42B /* RidesAfterSearchTableViewCell.swift in Sources */,
 				1EB978242A1E61E000C2D42B /* HitchListTableViewCell.swift in Sources */,
+				54D4FF342A1E9E3E00E237F9 /* HitchhikeStatusViewController.swift in Sources */,
 				1EB978472A1E7B1100C2D42B /* MyRidesDataDelegate.swift in Sources */,
 				1EB978382A1E623300C2D42B /* ResetPasswordHelper.swift in Sources */,
 				1EB978292A1E61EE00C2D42B /* searchRideUIView.swift in Sources */,
 				1EBFE3682A1D6544001C2EA3 /* LogInViewController.swift in Sources */,
 				1EB978222A1E61E000C2D42B /* HistoryOfHitchhikesTableViewCell.swift in Sources */,
+				54D4FF362A1E9E7D00E237F9 /* MyHitchesDataSource.swift in Sources */,
 				1EB978462A1E7B1100C2D42B /* MyRidesDataSource.swift in Sources */,
 				1EB978432A1E7A8800C2D42B /* MyRidesViewController.swift in Sources */,
+				54D4FF3A2A1E9EFE00E237F9 /* MyHitch.swift in Sources */,
 				1EB978412A1E623300C2D42B /* SecondSignUpHelper.swift in Sources */,
 				1EBFE3072A1D2BFD001C2EA3 /* ViewController.swift in Sources */,
 				1EB978372A1E623300C2D42B /* SignInDelegate.swift in Sources */,
 				1EB978232A1E61E000C2D42B /* HistoryOfRidesTableViewCell.swift in Sources */,
 				1EB978392A1E623300C2D42B /* SignUpDelegate.swift in Sources */,
+				54D4FF3C2A1E9F2500E237F9 /* MyHitchesDataDelegate.swift in Sources */,
 				1EBFE3692A1D6544001C2EA3 /* SecondSignUpViewController.swift in Sources */,
 				1EB9781A2A1E618600C2D42B /* ProfileScreenViewController.swift in Sources */,
 				1EBFE3032A1D2BFD001C2EA3 /* AppDelegate.swift in Sources */,
@@ -546,6 +565,7 @@
 				1EB9783E2A1E623300C2D42B /* SecondSignUpDelegate.swift in Sources */,
 				1EB978272A1E61E000C2D42B /* RideRequestTableViewCell.swift in Sources */,
 				1EB978402A1E623300C2D42B /* ResetPasswordDelegate.swift in Sources */,
+				54D4FF382A1E9EE700E237F9 /* Hitch.swift in Sources */,
 				1EB9783D2A1E623300C2D42B /* ProfileDelegate.swift in Sources */,
 				1EB9781B2A1E618600C2D42B /* ResetPasswordViewController.swift in Sources */,
 				1EB9783C2A1E623300C2D42B /* SignUpHelper.swift in Sources */,
