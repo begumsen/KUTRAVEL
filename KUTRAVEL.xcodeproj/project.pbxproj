@@ -30,6 +30,10 @@
 		1EB9783F2A1E623300C2D42B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978332A1E622C00C2D42B /* User.swift */; };
 		1EB978402A1E623300C2D42B /* ResetPasswordDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978342A1E623000C2D42B /* ResetPasswordDelegate.swift */; };
 		1EB978412A1E623300C2D42B /* SecondSignUpHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978352A1E623300C2D42B /* SecondSignUpHelper.swift */; };
+		1EB978432A1E7A8800C2D42B /* MyRidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978422A1E7A8800C2D42B /* MyRidesViewController.swift */; };
+		1EB978462A1E7B1100C2D42B /* MyRidesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978442A1E7B0400C2D42B /* MyRidesDataSource.swift */; };
+		1EB978472A1E7B1100C2D42B /* MyRidesDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978452A1E7B1100C2D42B /* MyRidesDataDelegate.swift */; };
+		1EB978492A1E7B9F00C2D42B /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978482A1E7B9F00C2D42B /* Ride.swift */; };
 		1EBFE3032A1D2BFD001C2EA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3022A1D2BFD001C2EA3 /* AppDelegate.swift */; };
 		1EBFE3052A1D2BFD001C2EA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3042A1D2BFD001C2EA3 /* SceneDelegate.swift */; };
 		1EBFE3072A1D2BFD001C2EA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3062A1D2BFD001C2EA3 /* ViewController.swift */; };
@@ -86,6 +90,10 @@
 		1EB978332A1E622C00C2D42B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1EB978342A1E623000C2D42B /* ResetPasswordDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordDelegate.swift; sourceTree = "<group>"; };
 		1EB978352A1E623300C2D42B /* SecondSignUpHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondSignUpHelper.swift; sourceTree = "<group>"; };
+		1EB978422A1E7A8800C2D42B /* MyRidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRidesViewController.swift; sourceTree = "<group>"; };
+		1EB978442A1E7B0400C2D42B /* MyRidesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRidesDataSource.swift; sourceTree = "<group>"; };
+		1EB978452A1E7B1100C2D42B /* MyRidesDataDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRidesDataDelegate.swift; sourceTree = "<group>"; };
+		1EB978482A1E7B9F00C2D42B /* Ride.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
 		1EBFE2FF2A1D2BFD001C2EA3 /* KUTRAVEL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KUTRAVEL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBFE3022A1D2BFD001C2EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EBFE3042A1D2BFD001C2EA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -209,6 +217,9 @@
 		1EBFE3362A1D2E7E001C2EA3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1EB978482A1E7B9F00C2D42B /* Ride.swift */,
+				1EB978452A1E7B1100C2D42B /* MyRidesDataDelegate.swift */,
+				1EB978442A1E7B0400C2D42B /* MyRidesDataSource.swift */,
 				1EB9782F2A1E621700C2D42B /* DatabaseManager.swift */,
 				1EB978312A1E621F00C2D42B /* ProfileDelegate.swift */,
 				1EB9782E2A1E621400C2D42B /* ProfileHelper.swift */,
@@ -249,6 +260,7 @@
 		1EBFE3472A1D2F5B001C2EA3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1EB978422A1E7A8800C2D42B /* MyRidesViewController.swift */,
 				1EBFE3662A1D653B001C2EA3 /* LogInViewController.swift */,
 				1EB978172A1E618400C2D42B /* ProfileScreenViewController.swift */,
 				1EB978182A1E618600C2D42B /* ResetPasswordViewController.swift */,
@@ -512,10 +524,13 @@
 			files = (
 				1EB978262A1E61E000C2D42B /* RidesAfterSearchTableViewCell.swift in Sources */,
 				1EB978242A1E61E000C2D42B /* HitchListTableViewCell.swift in Sources */,
+				1EB978472A1E7B1100C2D42B /* MyRidesDataDelegate.swift in Sources */,
 				1EB978382A1E623300C2D42B /* ResetPasswordHelper.swift in Sources */,
 				1EB978292A1E61EE00C2D42B /* searchRideUIView.swift in Sources */,
 				1EBFE3682A1D6544001C2EA3 /* LogInViewController.swift in Sources */,
 				1EB978222A1E61E000C2D42B /* HistoryOfHitchhikesTableViewCell.swift in Sources */,
+				1EB978462A1E7B1100C2D42B /* MyRidesDataSource.swift in Sources */,
+				1EB978432A1E7A8800C2D42B /* MyRidesViewController.swift in Sources */,
 				1EB978412A1E623300C2D42B /* SecondSignUpHelper.swift in Sources */,
 				1EBFE3072A1D2BFD001C2EA3 /* ViewController.swift in Sources */,
 				1EB978372A1E623300C2D42B /* SignInDelegate.swift in Sources */,
@@ -535,6 +550,7 @@
 				1EB9781B2A1E618600C2D42B /* ResetPasswordViewController.swift in Sources */,
 				1EB9783C2A1E623300C2D42B /* SignUpHelper.swift in Sources */,
 				1EB978362A1E623300C2D42B /* SignInHelper.swift in Sources */,
+				1EB978492A1E7B9F00C2D42B /* Ride.swift in Sources */,
 				1EB978252A1E61E000C2D42B /* RideListTableViewCell.swift in Sources */,
 				1EB9783A2A1E623300C2D42B /* ProfileHelper.swift in Sources */,
 			);

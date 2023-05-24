@@ -17,6 +17,7 @@ class SignInHelper {
                     self.createTheUser(userEmail: userEmail)
                 }
             } else {
+                print("ERROR PASSWORD")
                 self.delegate?.giveSignInError(errorDescription: "password is incorrect")
             }
             
