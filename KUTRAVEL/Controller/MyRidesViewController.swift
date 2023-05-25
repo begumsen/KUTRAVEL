@@ -1,9 +1,4 @@
-//
-//  myRidesViewController.swift
-//  Kuber
-//
-//  Created by Begum Sen on 24.11.2022.
-//
+
 
 import UIKit
 
@@ -44,15 +39,15 @@ class MyRidesViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
-        //AÇ
-        /*if
+        
+        if
             let cell = sender as? UITableViewCell,
             let indexPath = myRidesTableView.indexPath(for: cell),
             let myRide = myRidesDatasource.getMyRide(for: indexPath.row),
             let rideRequestController = segue.destination as? RideRequestsViewController
         {
             rideRequestController.ride = myRide
-        }*/
+        }
     }
     
     

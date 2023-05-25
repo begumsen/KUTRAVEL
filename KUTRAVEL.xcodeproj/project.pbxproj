@@ -34,6 +34,24 @@
 		1EB978462A1E7B1100C2D42B /* MyRidesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978442A1E7B0400C2D42B /* MyRidesDataSource.swift */; };
 		1EB978472A1E7B1100C2D42B /* MyRidesDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978452A1E7B1100C2D42B /* MyRidesDataDelegate.swift */; };
 		1EB978492A1E7B9F00C2D42B /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978482A1E7B9F00C2D42B /* Ride.swift */; };
+		1EB9786F2A1F5D4400C2D42B /* ReviewOthersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9786E2A1F5D4400C2D42B /* ReviewOthersViewController.swift */; };
+		1EB978712A1F5D5500C2D42B /* RideRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978702A1F5D5500C2D42B /* RideRequestsViewController.swift */; };
+		1EB978732A1F5D8400C2D42B /* PublishRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978722A1F5D8400C2D42B /* PublishRideViewController.swift */; };
+		1EB978762A1F5DB600C2D42B /* ReviewOthersDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978742A1F5DB100C2D42B /* ReviewOthersDataSource.swift */; };
+		1EB978772A1F5DB600C2D42B /* ReviewOthersHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978752A1F5DB600C2D42B /* ReviewOthersHelper.swift */; };
+		1EB978792A1F5DD500C2D42B /* ReviewOthersDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978782A1F5DD500C2D42B /* ReviewOthersDelegate.swift */; };
+		1EB9787C2A1F5DED00C2D42B /* RideRequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9787A2A1F5DE700C2D42B /* RideRequestHelper.swift */; };
+		1EB9787D2A1F5DED00C2D42B /* RideRequestDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9787B2A1F5DED00C2D42B /* RideRequestDataSource.swift */; };
+		1EB9787F2A1F5DF600C2D42B /* RideRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9787E2A1F5DF600C2D42B /* RideRequest.swift */; };
+		1EB978812A1F5E1300C2D42B /* RideRequestDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978802A1F5E1300C2D42B /* RideRequestDataDelegate.swift */; };
+		1EB978832A1F5E2B00C2D42B /* PublishRideHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978822A1F5E2A00C2D42B /* PublishRideHelper.swift */; };
+		1EB978862A1F5E3E00C2D42B /* PublishRideDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978842A1F5E3700C2D42B /* PublishRideDelegate.swift */; };
+		1EB978872A1F5E3E00C2D42B /* District.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978852A1F5E3D00C2D42B /* District.swift */; };
+		1EB978892A1F5E6200C2D42B /* ReviewOthersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978882A1F5E6200C2D42B /* ReviewOthersTableViewCell.swift */; };
+		1EB9788B2A1F5E8300C2D42B /* KuberDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9788A2A1F5E8300C2D42B /* KuberDataSource.swift */; };
+		1EB9788D2A1F6DAF00C2D42B /* MyReviewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9788C2A1F6DAF00C2D42B /* MyReviewsTableViewCell.swift */; };
+		1EB9788F2A1F6DD700C2D42B /* MyReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9788E2A1F6DD700C2D42B /* MyReviewsViewController.swift */; };
+		1EB978912A1F705200C2D42B /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978902A1F705200C2D42B /* Review.swift */; };
 		1EBFE3032A1D2BFD001C2EA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3022A1D2BFD001C2EA3 /* AppDelegate.swift */; };
 		1EBFE3052A1D2BFD001C2EA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3042A1D2BFD001C2EA3 /* SceneDelegate.swift */; };
 		1EBFE3072A1D2BFD001C2EA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3062A1D2BFD001C2EA3 /* ViewController.swift */; };
@@ -99,6 +117,24 @@
 		1EB978442A1E7B0400C2D42B /* MyRidesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRidesDataSource.swift; sourceTree = "<group>"; };
 		1EB978452A1E7B1100C2D42B /* MyRidesDataDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRidesDataDelegate.swift; sourceTree = "<group>"; };
 		1EB978482A1E7B9F00C2D42B /* Ride.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
+		1EB9786E2A1F5D4400C2D42B /* ReviewOthersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewOthersViewController.swift; sourceTree = "<group>"; };
+		1EB978702A1F5D5500C2D42B /* RideRequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideRequestsViewController.swift; sourceTree = "<group>"; };
+		1EB978722A1F5D8400C2D42B /* PublishRideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishRideViewController.swift; sourceTree = "<group>"; };
+		1EB978742A1F5DB100C2D42B /* ReviewOthersDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewOthersDataSource.swift; sourceTree = "<group>"; };
+		1EB978752A1F5DB600C2D42B /* ReviewOthersHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewOthersHelper.swift; sourceTree = "<group>"; };
+		1EB978782A1F5DD500C2D42B /* ReviewOthersDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewOthersDelegate.swift; sourceTree = "<group>"; };
+		1EB9787A2A1F5DE700C2D42B /* RideRequestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideRequestHelper.swift; sourceTree = "<group>"; };
+		1EB9787B2A1F5DED00C2D42B /* RideRequestDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideRequestDataSource.swift; sourceTree = "<group>"; };
+		1EB9787E2A1F5DF600C2D42B /* RideRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideRequest.swift; sourceTree = "<group>"; };
+		1EB978802A1F5E1300C2D42B /* RideRequestDataDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideRequestDataDelegate.swift; sourceTree = "<group>"; };
+		1EB978822A1F5E2A00C2D42B /* PublishRideHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishRideHelper.swift; sourceTree = "<group>"; };
+		1EB978842A1F5E3700C2D42B /* PublishRideDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishRideDelegate.swift; sourceTree = "<group>"; };
+		1EB978852A1F5E3D00C2D42B /* District.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = District.swift; sourceTree = "<group>"; };
+		1EB978882A1F5E6200C2D42B /* ReviewOthersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewOthersTableViewCell.swift; sourceTree = "<group>"; };
+		1EB9788A2A1F5E8300C2D42B /* KuberDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuberDataSource.swift; sourceTree = "<group>"; };
+		1EB9788C2A1F6DAF00C2D42B /* MyReviewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReviewsTableViewCell.swift; sourceTree = "<group>"; };
+		1EB9788E2A1F6DD700C2D42B /* MyReviewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReviewsViewController.swift; sourceTree = "<group>"; };
+		1EB978902A1F705200C2D42B /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		1EBFE2FF2A1D2BFD001C2EA3 /* KUTRAVEL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KUTRAVEL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBFE3022A1D2BFD001C2EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EBFE3042A1D2BFD001C2EA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -227,6 +263,17 @@
 		1EBFE3362A1D2E7E001C2EA3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1EB9788A2A1F5E8300C2D42B /* KuberDataSource.swift */,
+				1EB978852A1F5E3D00C2D42B /* District.swift */,
+				1EB978842A1F5E3700C2D42B /* PublishRideDelegate.swift */,
+				1EB978822A1F5E2A00C2D42B /* PublishRideHelper.swift */,
+				1EB978802A1F5E1300C2D42B /* RideRequestDataDelegate.swift */,
+				1EB9787E2A1F5DF600C2D42B /* RideRequest.swift */,
+				1EB9787B2A1F5DED00C2D42B /* RideRequestDataSource.swift */,
+				1EB9787A2A1F5DE700C2D42B /* RideRequestHelper.swift */,
+				1EB978782A1F5DD500C2D42B /* ReviewOthersDelegate.swift */,
+				1EB978742A1F5DB100C2D42B /* ReviewOthersDataSource.swift */,
+				1EB978752A1F5DB600C2D42B /* ReviewOthersHelper.swift */,
 				54D4FF372A1E9EE700E237F9 /* Hitch.swift */,
 				54D4FF352A1E9E7D00E237F9 /* MyHitchesDataSource.swift */,
 				54D4FF392A1E9EFE00E237F9 /* MyHitch.swift */,
@@ -246,6 +293,7 @@
 				1EB9782D2A1E621000C2D42B /* SignUpDelegate.swift */,
 				1EB978302A1E621A00C2D42B /* SignUpHelper.swift */,
 				1EB978332A1E622C00C2D42B /* User.swift */,
+				1EB978902A1F705200C2D42B /* Review.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -261,12 +309,14 @@
 		1EBFE3382A1D2EC3001C2EA3 /* TableCell */ = {
 			isa = PBXGroup;
 			children = (
+				1EB978882A1F5E6200C2D42B /* ReviewOthersTableViewCell.swift */,
 				1EB9781C2A1E61D300C2D42B /* HistoryOfHitchhikesTableViewCell.swift */,
 				1EB9781D2A1E61D500C2D42B /* HistoryOfRidesTableViewCell.swift */,
 				1EB9781E2A1E61D900C2D42B /* HitchListTableViewCell.swift */,
 				1EB9781F2A1E61DC00C2D42B /* RideListTableViewCell.swift */,
 				1EB978212A1E61E000C2D42B /* RideRequestTableViewCell.swift */,
 				1EB978202A1E61DE00C2D42B /* RidesAfterSearchTableViewCell.swift */,
+				1EB9788C2A1F6DAF00C2D42B /* MyReviewsTableViewCell.swift */,
 			);
 			path = TableCell;
 			sourceTree = "<group>";
@@ -274,6 +324,9 @@
 		1EBFE3472A1D2F5B001C2EA3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1EB978722A1F5D8400C2D42B /* PublishRideViewController.swift */,
+				1EB978702A1F5D5500C2D42B /* RideRequestsViewController.swift */,
+				1EB9786E2A1F5D4400C2D42B /* ReviewOthersViewController.swift */,
 				54D4FF332A1E9E3E00E237F9 /* HitchhikeStatusViewController.swift */,
 				1EB978422A1E7A8800C2D42B /* MyRidesViewController.swift */,
 				1EBFE3662A1D653B001C2EA3 /* LogInViewController.swift */,
@@ -281,6 +334,7 @@
 				1EB978182A1E618600C2D42B /* ResetPasswordViewController.swift */,
 				1EB978162A1E618200C2D42B /* SignUpViewController.swift */,
 				1EBFE3672A1D6544001C2EA3 /* SecondSignUpViewController.swift */,
+				1EB9788E2A1F6DD700C2D42B /* MyReviewsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -538,19 +592,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EB978262A1E61E000C2D42B /* RidesAfterSearchTableViewCell.swift in Sources */,
+				1EB9788D2A1F6DAF00C2D42B /* MyReviewsTableViewCell.swift in Sources */,
+				1EB978762A1F5DB600C2D42B /* ReviewOthersDataSource.swift in Sources */,
 				1EB978242A1E61E000C2D42B /* HitchListTableViewCell.swift in Sources */,
+				1EB978832A1F5E2B00C2D42B /* PublishRideHelper.swift in Sources */,
 				54D4FF342A1E9E3E00E237F9 /* HitchhikeStatusViewController.swift in Sources */,
 				1EB978472A1E7B1100C2D42B /* MyRidesDataDelegate.swift in Sources */,
 				1EB978382A1E623300C2D42B /* ResetPasswordHelper.swift in Sources */,
 				1EB978292A1E61EE00C2D42B /* searchRideUIView.swift in Sources */,
+				1EB978792A1F5DD500C2D42B /* ReviewOthersDelegate.swift in Sources */,
 				1EBFE3682A1D6544001C2EA3 /* LogInViewController.swift in Sources */,
+				1EB978872A1F5E3E00C2D42B /* District.swift in Sources */,
 				1EB978222A1E61E000C2D42B /* HistoryOfHitchhikesTableViewCell.swift in Sources */,
+				1EB978712A1F5D5500C2D42B /* RideRequestsViewController.swift in Sources */,
+				1EB978732A1F5D8400C2D42B /* PublishRideViewController.swift in Sources */,
 				54D4FF362A1E9E7D00E237F9 /* MyHitchesDataSource.swift in Sources */,
 				1EB978462A1E7B1100C2D42B /* MyRidesDataSource.swift in Sources */,
+				1EB9788F2A1F6DD700C2D42B /* MyReviewsViewController.swift in Sources */,
 				1EB978432A1E7A8800C2D42B /* MyRidesViewController.swift in Sources */,
 				54D4FF3A2A1E9EFE00E237F9 /* MyHitch.swift in Sources */,
+				1EB9788B2A1F5E8300C2D42B /* KuberDataSource.swift in Sources */,
 				1EB978412A1E623300C2D42B /* SecondSignUpHelper.swift in Sources */,
 				1EBFE3072A1D2BFD001C2EA3 /* ViewController.swift in Sources */,
+				1EB9787D2A1F5DED00C2D42B /* RideRequestDataSource.swift in Sources */,
 				1EB978372A1E623300C2D42B /* SignInDelegate.swift in Sources */,
 				1EB978232A1E61E000C2D42B /* HistoryOfRidesTableViewCell.swift in Sources */,
 				1EB978392A1E623300C2D42B /* SignUpDelegate.swift in Sources */,
@@ -563,11 +627,19 @@
 				1EBFE3052A1D2BFD001C2EA3 /* SceneDelegate.swift in Sources */,
 				1EB978192A1E618600C2D42B /* SignUpViewController.swift in Sources */,
 				1EB9783E2A1E623300C2D42B /* SecondSignUpDelegate.swift in Sources */,
+				1EB9786F2A1F5D4400C2D42B /* ReviewOthersViewController.swift in Sources */,
+				1EB9787C2A1F5DED00C2D42B /* RideRequestHelper.swift in Sources */,
 				1EB978272A1E61E000C2D42B /* RideRequestTableViewCell.swift in Sources */,
 				1EB978402A1E623300C2D42B /* ResetPasswordDelegate.swift in Sources */,
 				54D4FF382A1E9EE700E237F9 /* Hitch.swift in Sources */,
+				1EB978812A1F5E1300C2D42B /* RideRequestDataDelegate.swift in Sources */,
+				1EB978772A1F5DB600C2D42B /* ReviewOthersHelper.swift in Sources */,
+				1EB9787F2A1F5DF600C2D42B /* RideRequest.swift in Sources */,
 				1EB9783D2A1E623300C2D42B /* ProfileDelegate.swift in Sources */,
 				1EB9781B2A1E618600C2D42B /* ResetPasswordViewController.swift in Sources */,
+				1EB978862A1F5E3E00C2D42B /* PublishRideDelegate.swift in Sources */,
+				1EB978912A1F705200C2D42B /* Review.swift in Sources */,
+				1EB978892A1F5E6200C2D42B /* ReviewOthersTableViewCell.swift in Sources */,
 				1EB9783C2A1E623300C2D42B /* SignUpHelper.swift in Sources */,
 				1EB978362A1E623300C2D42B /* SignInHelper.swift in Sources */,
 				1EB978492A1E7B9F00C2D42B /* Ride.swift in Sources */,

@@ -1,9 +1,4 @@
-//
-//  myRidesDataSource.swift
-//  Kuber
-//
-//  Created by Begum Sen on 24.11.2022.
-//
+
 
 import Foundation
 
@@ -49,21 +44,6 @@ class MyRidesDataSource {
                 }
                
                 self.delegate?.myRidesListLoaded()
-                /**
-                 var newRide = Ride (
-                     rideId: rideId,
-                     fromLocation: document.get("from") as? String ?? "",
-                     fromNeighbourhoodLocation: document.get("fromNeighbourhood") as? String ?? "",
-                     toLocation: document.get("to") as? String ?? "",
-                     toNeighbourhoodLocation: document.get("toNeighbourhood") as? String ?? "",
-                     date: dateUnwrapped,
-                     time: timeUnwrapped,
-                     seatAvailable: document.get("numberOfSeats") as? Int ?? 1,
-                     fee: document.get("fee") as? Int ?? 0,
-                     mail: document.get("mail") as? String ?? "",
-                     hitched: false
-                 )
-                 */
             }
         }
     }
