@@ -67,9 +67,10 @@ class MyHitchesDataSource{
                         riderFullName: riderName,
                         riderMajor: riderMajor
                     )
+                if(newMyHitch.riderFullName != User.sharedInstance.fullName){
                     self.myFinalHitchesArray.append(newMyHitch)
-                
-                
+                    
+                }
                 
                 
                 

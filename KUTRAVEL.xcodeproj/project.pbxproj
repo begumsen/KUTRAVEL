@@ -64,6 +64,13 @@
 		1EBFE3682A1D6544001C2EA3 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3662A1D653B001C2EA3 /* LogInViewController.swift */; };
 		1EBFE3692A1D6544001C2EA3 /* SecondSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE3672A1D6544001C2EA3 /* SecondSignUpViewController.swift */; };
 		2D77EB888367D582D1E2FC97 /* Pods_KUTRAVELTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2D14EA34694C2E29AD5951 /* Pods_KUTRAVELTests.framework */; };
+		5459231B2A1FAF8C00EEEBB6 /* SearchRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5459231A2A1FAF8B00EEEBB6 /* SearchRideViewController.swift */; };
+		5459231D2A1FAFB500EEEBB6 /* RidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5459231C2A1FAFB500EEEBB6 /* RidesViewController.swift */; };
+		5459231F2A1FB08300EEEBB6 /* RidesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5459231E2A1FB08300EEEBB6 /* RidesDataSource.swift */; };
+		545923212A1FB0EF00EEEBB6 /* RidesAfterSearchHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545923202A1FB0EF00EEEBB6 /* RidesAfterSearchHelper.swift */; };
+		545923232A1FB12900EEEBB6 /* RidesAfterSearchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545923222A1FB12900EEEBB6 /* RidesAfterSearchDelegate.swift */; };
+		545923252A1FB27300EEEBB6 /* RideSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545923242A1FB27300EEEBB6 /* RideSearch.swift */; };
+		545923272A1FB28600EEEBB6 /* RidesDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545923262A1FB28600EEEBB6 /* RidesDataDelegate.swift */; };
 		54D4FF342A1E9E3E00E237F9 /* HitchhikeStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4FF332A1E9E3E00E237F9 /* HitchhikeStatusViewController.swift */; };
 		54D4FF362A1E9E7D00E237F9 /* MyHitchesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4FF352A1E9E7D00E237F9 /* MyHitchesDataSource.swift */; };
 		54D4FF382A1E9EE700E237F9 /* Hitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4FF372A1E9EE700E237F9 /* Hitch.swift */; };
@@ -151,6 +158,13 @@
 		1EBFE3662A1D653B001C2EA3 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		1EBFE3672A1D6544001C2EA3 /* SecondSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSignUpViewController.swift; sourceTree = "<group>"; };
 		427F383B4BC741CBB4091277 /* Pods-KUTRAVEL-KUTRAVELUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUTRAVEL-KUTRAVELUITests.debug.xcconfig"; path = "Target Support Files/Pods-KUTRAVEL-KUTRAVELUITests/Pods-KUTRAVEL-KUTRAVELUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5459231A2A1FAF8B00EEEBB6 /* SearchRideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRideViewController.swift; sourceTree = "<group>"; };
+		5459231C2A1FAFB500EEEBB6 /* RidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidesViewController.swift; sourceTree = "<group>"; };
+		5459231E2A1FB08300EEEBB6 /* RidesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidesDataSource.swift; sourceTree = "<group>"; };
+		545923202A1FB0EF00EEEBB6 /* RidesAfterSearchHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidesAfterSearchHelper.swift; sourceTree = "<group>"; };
+		545923222A1FB12900EEEBB6 /* RidesAfterSearchDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidesAfterSearchDelegate.swift; sourceTree = "<group>"; };
+		545923242A1FB27300EEEBB6 /* RideSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideSearch.swift; sourceTree = "<group>"; };
+		545923262A1FB28600EEEBB6 /* RidesDataDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidesDataDelegate.swift; sourceTree = "<group>"; };
 		54D4FF332A1E9E3E00E237F9 /* HitchhikeStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HitchhikeStatusViewController.swift; sourceTree = "<group>"; };
 		54D4FF352A1E9E7D00E237F9 /* MyHitchesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHitchesDataSource.swift; sourceTree = "<group>"; };
 		54D4FF372A1E9EE700E237F9 /* Hitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hitch.swift; sourceTree = "<group>"; };
@@ -263,7 +277,12 @@
 		1EBFE3362A1D2E7E001C2EA3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				545923262A1FB28600EEEBB6 /* RidesDataDelegate.swift */,
+				545923222A1FB12900EEEBB6 /* RidesAfterSearchDelegate.swift */,
+				545923202A1FB0EF00EEEBB6 /* RidesAfterSearchHelper.swift */,
+				545923242A1FB27300EEEBB6 /* RideSearch.swift */,
 				1EB9788A2A1F5E8300C2D42B /* KuberDataSource.swift */,
+				5459231E2A1FB08300EEEBB6 /* RidesDataSource.swift */,
 				1EB978852A1F5E3D00C2D42B /* District.swift */,
 				1EB978842A1F5E3700C2D42B /* PublishRideDelegate.swift */,
 				1EB978822A1F5E2A00C2D42B /* PublishRideHelper.swift */,
@@ -324,6 +343,8 @@
 		1EBFE3472A1D2F5B001C2EA3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5459231A2A1FAF8B00EEEBB6 /* SearchRideViewController.swift */,
+				5459231C2A1FAFB500EEEBB6 /* RidesViewController.swift */,
 				1EB978722A1F5D8400C2D42B /* PublishRideViewController.swift */,
 				1EB978702A1F5D5500C2D42B /* RideRequestsViewController.swift */,
 				1EB9786E2A1F5D4400C2D42B /* ReviewOthersViewController.swift */,
@@ -604,6 +625,7 @@
 				1EBFE3682A1D6544001C2EA3 /* LogInViewController.swift in Sources */,
 				1EB978872A1F5E3E00C2D42B /* District.swift in Sources */,
 				1EB978222A1E61E000C2D42B /* HistoryOfHitchhikesTableViewCell.swift in Sources */,
+				5459231B2A1FAF8C00EEEBB6 /* SearchRideViewController.swift in Sources */,
 				1EB978712A1F5D5500C2D42B /* RideRequestsViewController.swift in Sources */,
 				1EB978732A1F5D8400C2D42B /* PublishRideViewController.swift in Sources */,
 				54D4FF362A1E9E7D00E237F9 /* MyHitchesDataSource.swift in Sources */,
@@ -614,16 +636,22 @@
 				1EB9788B2A1F5E8300C2D42B /* KuberDataSource.swift in Sources */,
 				1EB978412A1E623300C2D42B /* SecondSignUpHelper.swift in Sources */,
 				1EBFE3072A1D2BFD001C2EA3 /* ViewController.swift in Sources */,
+				5459231F2A1FB08300EEEBB6 /* RidesDataSource.swift in Sources */,
+				545923272A1FB28600EEEBB6 /* RidesDataDelegate.swift in Sources */,
 				1EB9787D2A1F5DED00C2D42B /* RideRequestDataSource.swift in Sources */,
 				1EB978372A1E623300C2D42B /* SignInDelegate.swift in Sources */,
+				5459231D2A1FAFB500EEEBB6 /* RidesViewController.swift in Sources */,
 				1EB978232A1E61E000C2D42B /* HistoryOfRidesTableViewCell.swift in Sources */,
+				545923252A1FB27300EEEBB6 /* RideSearch.swift in Sources */,
 				1EB978392A1E623300C2D42B /* SignUpDelegate.swift in Sources */,
 				54D4FF3C2A1E9F2500E237F9 /* MyHitchesDataDelegate.swift in Sources */,
 				1EBFE3692A1D6544001C2EA3 /* SecondSignUpViewController.swift in Sources */,
+				545923212A1FB0EF00EEEBB6 /* RidesAfterSearchHelper.swift in Sources */,
 				1EB9781A2A1E618600C2D42B /* ProfileScreenViewController.swift in Sources */,
 				1EBFE3032A1D2BFD001C2EA3 /* AppDelegate.swift in Sources */,
 				1EB9783F2A1E623300C2D42B /* User.swift in Sources */,
 				1EB9783B2A1E623300C2D42B /* DatabaseManager.swift in Sources */,
+				545923232A1FB12900EEEBB6 /* RidesAfterSearchDelegate.swift in Sources */,
 				1EBFE3052A1D2BFD001C2EA3 /* SceneDelegate.swift in Sources */,
 				1EB978192A1E618600C2D42B /* SignUpViewController.swift in Sources */,
 				1EB9783E2A1E623300C2D42B /* SecondSignUpDelegate.swift in Sources */,

@@ -7,7 +7,7 @@ final class DatabaseManager {
     
     init(){
         // Create a connection object
-        let configuration = MySQLConfiguration(user: "root", password: "ares35", serverName: "localhost", dbName: "app", port: 3306, socket: "/System/Volumes/Data/private/tmp/mysql.sock")
+        let configuration = MySQLConfiguration(user: "root", password: "qwerty", serverName: "localhost", dbName: "app", port: 3306, socket: "/System/Volumes/Data/private/tmp/mysql.sock")
         let coordinator = MySQLStoreCoordinator(configuration: configuration)
         if coordinator.connect() {
            print("Connected successfully.")
