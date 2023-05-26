@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0CB28A4938E270A5BD2F9572 /* Pods_KUTRAVEL_KUTRAVELUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FD1583BDA793C3584400D6 /* Pods_KUTRAVEL_KUTRAVELUITests.framework */; };
+		1E2E67B72A210699003F5FC4 /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2E67B62A210699003F5FC4 /* StatisticViewController.swift */; };
+		1E2E67B92A2107B7003F5FC4 /* StatsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2E67B82A2107B7003F5FC4 /* StatsDataSource.swift */; };
+		1E2E67BB2A2107C9003F5FC4 /* StatsDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2E67BA2A2107C9003F5FC4 /* StatsDataDelegate.swift */; };
 		1EB978192A1E618600C2D42B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978162A1E618200C2D42B /* SignUpViewController.swift */; };
 		1EB9781A2A1E618600C2D42B /* ProfileScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978172A1E618400C2D42B /* ProfileScreenViewController.swift */; };
 		1EB9781B2A1E618600C2D42B /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978182A1E618600C2D42B /* ResetPasswordViewController.swift */; };
@@ -98,6 +101,9 @@
 
 /* Begin PBXFileReference section */
 		00D6120DBF3195C5BE061122 /* Pods-KUTRAVEL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUTRAVEL.release.xcconfig"; path = "Target Support Files/Pods-KUTRAVEL/Pods-KUTRAVEL.release.xcconfig"; sourceTree = "<group>"; };
+		1E2E67B62A210699003F5FC4 /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
+		1E2E67B82A2107B7003F5FC4 /* StatsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsDataSource.swift; sourceTree = "<group>"; };
+		1E2E67BA2A2107C9003F5FC4 /* StatsDataDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsDataDelegate.swift; sourceTree = "<group>"; };
 		1EB978162A1E618200C2D42B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		1EB978172A1E618400C2D42B /* ProfileScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileScreenViewController.swift; sourceTree = "<group>"; };
 		1EB978182A1E618600C2D42B /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
@@ -313,6 +319,8 @@
 				1EB978302A1E621A00C2D42B /* SignUpHelper.swift */,
 				1EB978332A1E622C00C2D42B /* User.swift */,
 				1EB978902A1F705200C2D42B /* Review.swift */,
+				1E2E67B82A2107B7003F5FC4 /* StatsDataSource.swift */,
+				1E2E67BA2A2107C9003F5FC4 /* StatsDataDelegate.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -356,6 +364,7 @@
 				1EB978162A1E618200C2D42B /* SignUpViewController.swift */,
 				1EBFE3672A1D6544001C2EA3 /* SecondSignUpViewController.swift */,
 				1EB9788E2A1F6DD700C2D42B /* MyReviewsViewController.swift */,
+				1E2E67B62A210699003F5FC4 /* StatisticViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -623,6 +632,7 @@
 				1EB978292A1E61EE00C2D42B /* searchRideUIView.swift in Sources */,
 				1EB978792A1F5DD500C2D42B /* ReviewOthersDelegate.swift in Sources */,
 				1EBFE3682A1D6544001C2EA3 /* LogInViewController.swift in Sources */,
+				1E2E67B92A2107B7003F5FC4 /* StatsDataSource.swift in Sources */,
 				1EB978872A1F5E3E00C2D42B /* District.swift in Sources */,
 				1EB978222A1E61E000C2D42B /* HistoryOfHitchhikesTableViewCell.swift in Sources */,
 				5459231B2A1FAF8C00EEEBB6 /* SearchRideViewController.swift in Sources */,
@@ -633,6 +643,7 @@
 				1EB9788F2A1F6DD700C2D42B /* MyReviewsViewController.swift in Sources */,
 				1EB978432A1E7A8800C2D42B /* MyRidesViewController.swift in Sources */,
 				54D4FF3A2A1E9EFE00E237F9 /* MyHitch.swift in Sources */,
+				1E2E67BB2A2107C9003F5FC4 /* StatsDataDelegate.swift in Sources */,
 				1EB9788B2A1F5E8300C2D42B /* KuberDataSource.swift in Sources */,
 				1EB978412A1E623300C2D42B /* SecondSignUpHelper.swift in Sources */,
 				1EBFE3072A1D2BFD001C2EA3 /* ViewController.swift in Sources */,
@@ -655,6 +666,7 @@
 				1EBFE3052A1D2BFD001C2EA3 /* SceneDelegate.swift in Sources */,
 				1EB978192A1E618600C2D42B /* SignUpViewController.swift in Sources */,
 				1EB9783E2A1E623300C2D42B /* SecondSignUpDelegate.swift in Sources */,
+				1E2E67B72A210699003F5FC4 /* StatisticViewController.swift in Sources */,
 				1EB9786F2A1F5D4400C2D42B /* ReviewOthersViewController.swift in Sources */,
 				1EB9787C2A1F5DED00C2D42B /* RideRequestHelper.swift in Sources */,
 				1EB978272A1E61E000C2D42B /* RideRequestTableViewCell.swift in Sources */,
