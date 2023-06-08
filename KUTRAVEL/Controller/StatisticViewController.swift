@@ -48,6 +48,9 @@ extension StatisticViewController: StatsDataDelegate {
     
     func statsAreLoaded() {
         firstStat.text = statsDataSource.first
+        secondStat.text = statsDataSource.second
+        thirdStat.text = statsDataSource.third
+        fourthStat.text = statsDataSource.fourth
     }
     
 }
