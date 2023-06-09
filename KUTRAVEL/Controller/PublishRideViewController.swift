@@ -18,7 +18,7 @@ class PublishRideViewController: UIViewController {
     @IBOutlet weak var feeField: UILabel!
     
     @IBOutlet weak var numberOfSeatsField: UISegmentedControl!
-    private let kuberDataSource=KuberDataSource()
+    private let kuberDataSource=KuTravelDataSource()
     
     let publishRideHelper = PublishRideHelper()
     

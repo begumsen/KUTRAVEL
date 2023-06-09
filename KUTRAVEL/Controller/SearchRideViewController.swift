@@ -15,7 +15,7 @@ class SearchRideViewController: UIViewController {
     @IBOutlet weak var searchButton: UIButton!
     @IBOutlet weak var showAllSwitch: UISwitch!
     @IBOutlet weak var showAllLabel: UILabel!
-    private let kuberDataSource=KuberDataSource()
+    private let kuTravelDataSource=KuTravelDataSource()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -42,7 +42,7 @@ class SearchRideViewController: UIViewController {
     }
     
     func setFromLocationPopUpButton(){
-        let number=kuberDataSource.getNumberDistricts()
+        let number=kuTravelDataSource.getNumberDistricts()
         let optionClosure = {(action: UIAction) in
             self.fromLocation.setTitle(action.title, for: .normal)
             self.setFromNeighbourhoodLocationPopUpButton(title: action.title)
@@ -51,10 +51,10 @@ class SearchRideViewController: UIViewController {
         var children = Array<UIAction>(repeating: UIAction(title:"",handler: optionClosure), count: number)
         for i in 0...number-1{
             if i == 1{
-                children[i]=UIAction(title: kuberDataSource.getDistrict(for: i)?.name ?? "", state: .on,handler: optionClosure)
+                children[i]=UIAction(title: kuTravelDataSource.getDistrict(for: i)?.name ?? "", state: .on,handler: optionClosure)
             }
             else{
-                children[i]=UIAction(title: kuberDataSource.getDistrict(for: i)?.name ?? "",handler: optionClosure)
+                children[i]=UIAction(title: kuTravelDataSource.getDistrict(for: i)?.name ?? "",handler: optionClosure)
             }
         }
         
@@ -65,7 +65,7 @@ class SearchRideViewController: UIViewController {
         
     }
     func setToLocationPopUpButton(){
-        let number=kuberDataSource.getNumberDistricts()
+        let number=kuTravelDataSource.getNumberDistricts()
         let optionClosure = {(action: UIAction) in
             self.toLocation.setTitle(action.title, for: .normal)
             self.setToNeighbourhoodLocationPopUpButton(title: action.title)
@@ -73,10 +73,10 @@ class SearchRideViewController: UIViewController {
         var children = Array<UIAction>(repeating: UIAction(title:"",handler: optionClosure), count: number)
         for i in 0...number-1{
             if i == 1{
-                children[i]=UIAction(title: kuberDataSource.getDistrict(for: i)?.name ?? "", state: .on,handler: optionClosure)
+                children[i]=UIAction(title: kuTravelDataSource.getDistrict(for: i)?.name ?? "", state: .on,handler: optionClosure)
             }
             else{
-                children[i]=UIAction(title: kuberDataSource.getDistrict(for: i)?.name ?? "",handler: optionClosure)
+                children[i]=UIAction(title: kuTravelDataSource.getDistrict(for: i)?.name ?? "",handler: optionClosure)
             }
         }
         
@@ -87,17 +87,17 @@ class SearchRideViewController: UIViewController {
         
     }
     func setFromNeighbourhoodLocationPopUpButton(title:String){
-        let number=kuberDataSource.getNumberOfNeighbourhood(with: title)
+        let number=kuTravelDataSource.getNumberOfNeighbourhood(with: title)
         let optionClosure = {(action: UIAction) in
             
         }
         var children = Array<UIAction>(repeating: UIAction(title:"",handler: optionClosure), count: number)
         for i in 0...number-1{
             if i == 0{
-                children[i]=UIAction(title: kuberDataSource.getNeighbourhood(with: title , for: i) ?? "", state: .on,handler: optionClosure)
+                children[i]=UIAction(title: kuTravelDataSource.getNeighbourhood(with: title , for: i) ?? "", state: .on,handler: optionClosure)
             }
             else{
-                children[i]=UIAction(title: kuberDataSource.getNeighbourhood(with: title , for: i) ?? "",handler: optionClosure)
+                children[i]=UIAction(title: kuTravelDataSource.getNeighbourhood(with: title , for: i) ?? "",handler: optionClosure)
             }
         }
         
@@ -108,17 +108,17 @@ class SearchRideViewController: UIViewController {
         
     }
     func setToNeighbourhoodLocationPopUpButton(title:String){
-        let number=kuberDataSource.getNumberOfNeighbourhood(with: title)
+        let number=kuTravelDataSource.getNumberOfNeighbourhood(with: title)
         let optionClosure = {(action: UIAction) in
             
         }
         var children = Array<UIAction>(repeating: UIAction(title:"",handler: optionClosure), count: number)
         for i in 0...number-1{
             if i == 0{
-                children[i]=UIAction(title: kuberDataSource.getNeighbourhood(with: title , for: i) ?? "", state: .on,handler: optionClosure)
+                children[i]=UIAction(title: kuTravelDataSource.getNeighbourhood(with: title , for: i) ?? "", state: .on,handler: optionClosure)
             }
             else{
-                children[i]=UIAction(title: kuberDataSource.getNeighbourhood(with: title , for: i) ?? "",handler: optionClosure)
+                children[i]=UIAction(title: kuTravelDataSource.getNeighbourhood(with: title , for: i) ?? "",handler: optionClosure)
             }
         }
         

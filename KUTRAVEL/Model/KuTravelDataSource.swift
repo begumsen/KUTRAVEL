@@ -1,6 +1,6 @@
 
 import Foundation
-struct KuberDataSource {
+struct KuTravelDataSource {
     
     private let districtArray: [District]
     private let majorrArray: [String]

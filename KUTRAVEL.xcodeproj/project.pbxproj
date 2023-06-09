@@ -51,7 +51,7 @@
 		1EB978862A1F5E3E00C2D42B /* PublishRideDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978842A1F5E3700C2D42B /* PublishRideDelegate.swift */; };
 		1EB978872A1F5E3E00C2D42B /* District.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978852A1F5E3D00C2D42B /* District.swift */; };
 		1EB978892A1F5E6200C2D42B /* ReviewOthersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978882A1F5E6200C2D42B /* ReviewOthersTableViewCell.swift */; };
-		1EB9788B2A1F5E8300C2D42B /* KuberDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9788A2A1F5E8300C2D42B /* KuberDataSource.swift */; };
+		1EB9788B2A1F5E8300C2D42B /* KuTravelDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9788A2A1F5E8300C2D42B /* KuTravelDataSource.swift */; };
 		1EB9788D2A1F6DAF00C2D42B /* MyReviewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9788C2A1F6DAF00C2D42B /* MyReviewsTableViewCell.swift */; };
 		1EB9788F2A1F6DD700C2D42B /* MyReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9788E2A1F6DD700C2D42B /* MyReviewsViewController.swift */; };
 		1EB978912A1F705200C2D42B /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978902A1F705200C2D42B /* Review.swift */; };
@@ -144,7 +144,7 @@
 		1EB978842A1F5E3700C2D42B /* PublishRideDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishRideDelegate.swift; sourceTree = "<group>"; };
 		1EB978852A1F5E3D00C2D42B /* District.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = District.swift; sourceTree = "<group>"; };
 		1EB978882A1F5E6200C2D42B /* ReviewOthersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewOthersTableViewCell.swift; sourceTree = "<group>"; };
-		1EB9788A2A1F5E8300C2D42B /* KuberDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuberDataSource.swift; sourceTree = "<group>"; };
+		1EB9788A2A1F5E8300C2D42B /* KuTravelDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuTravelDataSource.swift; sourceTree = "<group>"; };
 		1EB9788C2A1F6DAF00C2D42B /* MyReviewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReviewsTableViewCell.swift; sourceTree = "<group>"; };
 		1EB9788E2A1F6DD700C2D42B /* MyReviewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReviewsViewController.swift; sourceTree = "<group>"; };
 		1EB978902A1F705200C2D42B /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
@@ -287,7 +287,7 @@
 				545923222A1FB12900EEEBB6 /* RidesAfterSearchDelegate.swift */,
 				545923202A1FB0EF00EEEBB6 /* RidesAfterSearchHelper.swift */,
 				545923242A1FB27300EEEBB6 /* RideSearch.swift */,
-				1EB9788A2A1F5E8300C2D42B /* KuberDataSource.swift */,
+				1EB9788A2A1F5E8300C2D42B /* KuTravelDataSource.swift */,
 				5459231E2A1FB08300EEEBB6 /* RidesDataSource.swift */,
 				1EB978852A1F5E3D00C2D42B /* District.swift */,
 				1EB978842A1F5E3700C2D42B /* PublishRideDelegate.swift */,
@@ -644,7 +644,7 @@
 				1EB978432A1E7A8800C2D42B /* MyRidesViewController.swift in Sources */,
 				54D4FF3A2A1E9EFE00E237F9 /* MyHitch.swift in Sources */,
 				1E2E67BB2A2107C9003F5FC4 /* StatsDataDelegate.swift in Sources */,
-				1EB9788B2A1F5E8300C2D42B /* KuberDataSource.swift in Sources */,
+				1EB9788B2A1F5E8300C2D42B /* KuTravelDataSource.swift in Sources */,
 				1EB978412A1E623300C2D42B /* SecondSignUpHelper.swift in Sources */,
 				1EBFE3072A1D2BFD001C2EA3 /* ViewController.swift in Sources */,
 				5459231F2A1FB08300EEEBB6 /* RidesDataSource.swift in Sources */,
