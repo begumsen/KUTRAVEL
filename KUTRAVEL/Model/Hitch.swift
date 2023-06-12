@@ -1,9 +1,3 @@
-//
-//  Hitch.swift
-//  Kuber
-//
-//  Created by Aslıhan Gülseren on 4.12.2022.
-//
 
 import Foundation
 

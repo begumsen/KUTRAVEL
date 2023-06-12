@@ -1,9 +1,3 @@
-//
-//  HitchhikeStatusViewController.swift
-//  Kuber
-//
-//  Created by Aslıhan Gülseren on 3.11.2022.
-//
 
 import UIKit
 
@@ -13,7 +7,7 @@ class HitchhikeStatusViewController: UIViewController {
     
     @IBOutlet weak var searchButton: UIButton!
     private var hitchhikeDatasource = MyHitchesDataSource()
-    
+    private var ridesDatasource = RidesDataSource()
     @IBOutlet weak var hitchListTableView: UITableView!
     
     @IBOutlet weak var activityIndicatorView: UIActivityIndicatorView!
@@ -22,7 +16,6 @@ class HitchhikeStatusViewController: UIViewController {
         super.viewDidLoad()
         searchButton.imageView?.contentMode = .scaleAspectFit
         hitchhikeDatasource.delegate = self
-        //hitchhikeDatasource.getListOfHitches()
         updateTheTableViewDesign()
         
         // Do any additional setup after loading the view.
@@ -41,15 +34,24 @@ class HitchhikeStatusViewController: UIViewController {
         hitchListTableView.showsVerticalScrollIndicator = false
     }
     
-    /*
+    
      // MARK: - Navigation
      
      // In a storyboard-based application, you will often want to do a little preparation before navigation
-     overhitch func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
      // Get the new view controller using segue.destination.
      // Pass the selected object to the new view controller.
+         if
+             let cell = sender as? UITableViewCell,
+             let indexPath = hitchListTableView.indexPath(for: cell),
+             let hitch = hitchhikeDatasource.getHitch(for: indexPath.row),
+             let reviewViewController = segue.destination as? MyReviewsViewController
+         {
+             reviewViewController.userEmail = hitch.hitch.ride.mail
+         }
      }
-     */
+     
+    
     
 }
 
@@ -70,21 +72,14 @@ extension HitchhikeStatusViewController: UITableViewDataSource{
         if let hitch = hitchhikeDatasource.getHitch(for: indexPath.row){
             let dateFormatter = DateFormatter()
             dateFormatter.dateFormat = "dd/MM/YY"
-            let timeFormatter = DateFormatter()
-            timeFormatter.dateFormat = "HH:mm"
             
             cell.fromLocationLabel.text = hitch.hitch.ride.fromLocation
             cell.toLocationLabel.text = hitch.hitch.ride.toLocation
             cell.dateLabel.text = dateFormatter.string(from: hitch.hitch.ride.date)
-            let rideTime = 0
-            cell.timeLabel.text = "0"
             cell.moneyLabel.text = "\(hitch.hitch.ride.fee) TL"
             cell.majorLabel.text = hitch.riderMajor
             cell.fullNameLabel.text = hitch.riderFullName
-            
-            //cell.profilePictureImageView.image = UIImage(data: hitch.riderProfileImageData)
-            
-            
+            cell.reviewLabel.text = "\(ridesDatasource.getRiderReviewPoint(riderEmail: hitch.hitch.ride.mail))/5"
             //hitchhikeStatus 0 -> declined 1->approved 2->in request
             if  hitch.hitch.status == 0 {
                 cell.statusButton.tintColor=UIColor(red: 153/255.0, green: 0/255.0, blue: 0/255.0, alpha: 1)
@@ -103,7 +98,6 @@ extension HitchhikeStatusViewController: UITableViewDataSource{
             cell.fromLocationLabel.text = "N/A"
             cell.toLocationLabel.text = "N/A"
             cell.dateLabel.text = "N/A"
-            cell.timeLabel.text = "N/A"
             cell.fullNameLabel.text = "N/A"
             cell.majorLabel.text = "N/A"
             cell.moneyLabel.text = "N/A"

@@ -12,7 +12,7 @@ class RideRequestHelper {
     
     func declineTheRideRequest (ride: RideRequest){
         
-        DatabaseManager.sharedInstance.executeQuery(str: "UPDATE Hitch SET status = 2 WHERE HitchId = \(ride.hitchhikeId)")
+        DatabaseManager.sharedInstance.executeQuery(str: "UPDATE Hitch SET status = 0 WHERE HitchId = \(ride.hitchhikeId)")
     }
     
     func callNumber(phoneNumber: String) {

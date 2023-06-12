@@ -1,9 +1,4 @@
-//
-//  MyReviewsViewController.swift
-//  KUTRAVEL
-//
-//  Created by Begum Sen on 25.05.2023.
-//
+
 
 import UIKit
 
@@ -16,6 +11,8 @@ class MyReviewsViewController: UIViewController {
    
     @IBOutlet weak var warningLabel: UILabel!
     
+    var userEmail:String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         reviewOthersDataSource.delegate = self
@@ -23,7 +20,7 @@ class MyReviewsViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        reviewOthersDataSource.getListOfReviews()
+        reviewOthersDataSource.getListOfReviews(email: userEmail ?? "")
         print("getListOfUsers()")
     }
     /*

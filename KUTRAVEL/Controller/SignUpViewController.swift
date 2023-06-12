@@ -1,9 +1,4 @@
-//
-//  SignUpViewController.swift
-//  Kuber
-//
-//  Created by Aslıhan Gülseren on 10.11.2022.
-//
+
 
 import UIKit
 
@@ -22,10 +17,7 @@ class SignUpViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // passwordField.isSecureTextEntry=true
         signUpHelper.delegate = self
-        //emailField.delegate = self
-        //passwordField.delegate = self
         
         // Do any additional setup after loading the view.
         NotificationCenter.default.addObserver(self, selector: #selector(LogInViewController.keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
@@ -81,9 +73,7 @@ extension SignUpViewController: SignUpDelegate {
     func signUpTheUser() {
         // if the user's email and password is validated
         // the user will be signed up and navigated to next screen
-        if let email = emailField.text {
-            //signUpHelper.setImageUrl(email: email, imageData: self.imageData)
-        }
+    
         if let secondSignUpViewController = self.storyboard?.instantiateViewController(withIdentifier: "SecondSignUpViewController") as? SecondSignUpViewController,
            let emailTextUnwrapped = self.emailField.text,
            let passwordTextUnwrapped = self.passwordField.text {

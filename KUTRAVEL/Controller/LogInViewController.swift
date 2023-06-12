@@ -16,11 +16,9 @@ class LogInViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //passwordField.isSecureTextEntry = true
         signInHelper.delegate = self
         emailField.delegate = self
         passwordField.delegate = self
-        //self.tabBarController?.navigationItem.hidesBackButton = true
         // Do any additional setup after loading the view.
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))

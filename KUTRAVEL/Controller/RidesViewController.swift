@@ -9,7 +9,6 @@ class RidesViewController: UIViewController {
     var to: String = ""
     var toNeighbourhood: String = ""
     var date: Date = Date()
-    var time: Date = Date()
     var all: Bool = false
     
     
@@ -33,7 +32,7 @@ class RidesViewController: UIViewController {
             ridesDatasource.getListOfRidesWithShowAll()
         } else {
             
-            ridesDatasource.getListOfRidesWithoutShowAll(to: to, toNeighbourhood: toNeighbourhood, from: from, date: date , time: time )
+            ridesDatasource.getListOfRidesWithoutShowAll(to: to, toNeighbourhood: toNeighbourhood, from: from, date: date  )
         }
         
         updateTheTableViewDesign()
@@ -50,15 +49,23 @@ class RidesViewController: UIViewController {
         ridesAfterSearchTableView.showsVerticalScrollIndicator = false
     }
     
-    /*
+    
      // MARK: - Navigation
      
      // In a storyboard-based application, you will often want to do a little preparation before navigation
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
      // Get the new view controller using segue.destination.
      // Pass the selected object to the new view controller.
+         if
+             let cell = sender as? UITableViewCell,
+             let indexPath = ridesAfterSearchTableView.indexPath(for: cell),
+             let ride = ridesDatasource.getRide(for: indexPath.row),
+             let reviewViewController = segue.destination as? MyReviewsViewController
+         {
+             reviewViewController.userEmail = ride.ride.mail
+         }
      }
-     */
+     
     
 }
 
@@ -81,8 +88,7 @@ extension RidesViewController: UITableViewDataSource{
         if var ride = ridesDatasource.getRide(for: indexPath.row){
             let dateFormatter = DateFormatter()
             dateFormatter.dateFormat = "dd/MM/YY"
-            let timeFormatter = DateFormatter()
-            timeFormatter.dateFormat = "HH:mm"
+            
             
             if(ride.ride.hitched) {
                 cell.sendHitchButton.setTitle("Sent", for: .normal)
@@ -97,26 +103,16 @@ extension RidesViewController: UITableViewDataSource{
             cell.toLocationLabel.text = ride.ride.toLocation
             cell.dateLabel.text = dateFormatter.string(from: ride.ride.date)
             cell.fullNameLabel.text = ride.riderFullName
-            print("HEEEYYYYYYYY")
+            cell.reviewLabel.text = "\(ridesDatasource.getRiderReviewPoint(riderEmail: ride.ride.mail))/5"
             print(ride.riderFullName)
             cell.majorLabel.text = ride.riderMajor
             cell.moneyLabel.text = "\(ride.ride.fee) TL"
-            
-            
-            //cell.profilePictureImageView.image = UIImage(data: ride.profileImageData)
-            /*cell.profilePictureImageView.kf.indicatorType = .activity
-            cell.profilePictureImageView.kf.setImage(with: URL(string: ride.profileImageUrl), placeholder: nil, options: [.transition(.fade(0.7))], progressBlock: nil)
-            cell.profilePictureImageView.layer.borderWidth = 1.0
-            cell.profilePictureImageView.layer.masksToBounds = false
-            cell.profilePictureImageView.layer.borderColor = UIColor.white.cgColor
-            cell.profilePictureImageView.layer.cornerRadius = cell.profilePictureImageView.frame.height / 2
-            cell.profilePictureImageView.clipsToBounds = true*/
-            
-            
+
             cell.hitchARideBtn = {[unowned self] in
                 cell.sendHitchButton.setTitle("Sent", for: .normal)
                 cell.sendHitchButton.setTitleColor(.darkGray, for: .normal)
                 cell.sendHitchButton.isEnabled = false
+                print("save hitch to database")
                 ridesAfterSearchHelper.saveHitchToDatabase(ride: ride.ride)
                 
                 //ridesAfterSearchHelper.sendNotificationWithFirebase(ride: ride.ride)
@@ -126,7 +122,6 @@ extension RidesViewController: UITableViewDataSource{
             cell.fromLocationLabel.text = "N/A"
             cell.toLocationLabel.text = "N/A"
             cell.dateLabel.text = "N/A"
-            cell.timeLabel.text = "N/A"
             cell.fullNameLabel.text = "N/A"
             cell.majorLabel.text = "N/A"
             cell.moneyLabel.text = "N/A"

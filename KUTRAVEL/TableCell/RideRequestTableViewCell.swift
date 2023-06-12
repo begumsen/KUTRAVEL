@@ -11,7 +11,7 @@ class RideRequestTableViewCell: UITableViewCell {
     @IBOutlet weak var declineButton: UIButton!
     @IBOutlet weak var phoneLabel: UIButton!
     
-    @IBOutlet weak var profilePictureImageView: UIImageView!
+    @IBOutlet weak var reviewLabel: UILabel!
     
     var acceptARequestButton: (() -> ())?
     var declineARequestButton: (() -> ())?

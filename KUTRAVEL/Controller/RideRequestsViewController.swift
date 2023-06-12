@@ -1,9 +1,4 @@
-//
-//  RideRequestsViewController.swift
-//  Kuber
-//
-//  Created by Aslıhan Gülseren on 3.11.2022.
-//
+
 
 import UIKit
 
@@ -14,7 +9,7 @@ class RideRequestsViewController: UIViewController {
     private var rideRequestDatasource = RideRequestDataSource()
     var ride: Ride?
     var rideRequestHelper = RideRequestHelper()
-    
+    private var ridesDatasource = RidesDataSource()
     @IBOutlet weak var warningLabel: UILabel!
     
     
@@ -43,15 +38,23 @@ class RideRequestsViewController: UIViewController {
     }
     
     
-    /*
+    
      // MARK: - Navigation
      
      // In a storyboard-based application, you will often want to do a little preparation before navigation
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
      // Get the new view controller using segue.destination.
      // Pass the selected object to the new view controller.
+         if
+             let cell = sender as? UITableViewCell,
+             let indexPath = rideRequestTableView.indexPath(for: cell),
+             let ride = rideRequestDatasource.getRideRequest(for: indexPath.row),
+             let reviewViewController = segue.destination as? MyReviewsViewController
+         {
+             reviewViewController.userEmail = ride.hitchhikerMail
+         }
      }
-     */
+     
     
 }
 
@@ -76,7 +79,7 @@ extension RideRequestsViewController: UITableViewDataSource{
             cell.nameLabel.text = ride.hitchhikerName
             cell.majorLabel.text = ride.hitchhikerMajor
             cell.gradeLevelLabel.text = ride.hitchhikerGradeLevel
-            
+            cell.reviewLabel.text = "\(ridesDatasource.getRiderReviewPoint(riderEmail: ride.hitchhikerMail))/5"
             cell.acceptARequestButton = {[unowned self] in
                 rideRequestHelper.acceptTheRideRequest(ride: ride)
                 if let rideUnwrapped = self.ride{
@@ -107,7 +110,7 @@ extension RideRequestsViewController: UITableViewDataSource{
                 rideRequestHelper.callNumber(phoneNumber: ride.hitchhikerPhoneNumber)
             }
             print(ride.status)
-            if  ride.status == 2 { //declines
+            if  ride.status == 0 { //declines
                 cell.acceptButton.isEnabled = false
                 cell.declineButton.isEnabled = false
                 cell.acceptButton.setTitleColor(.darkGray, for: .disabled)

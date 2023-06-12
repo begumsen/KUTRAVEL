@@ -1,9 +1,4 @@
-//
-//  ReviewOthersDataSource.swift
-//  KUTRAVEL
-//
-//  Created by Begum Sen on 25.05.2023.
-//
+
 
 import Foundation
 
@@ -45,10 +40,10 @@ class ReviewOthersDataSource {
         }
     }
     
-    func getListOfReviews(){
+    func getListOfReviews(email: String){
         
         reviews.removeAll()
-        let reviews = DatabaseManager.sharedInstance.executeQuery(str: "SELECT ReviewerMail, Comment, Rating FROM Review WHERE ReviewedMail = '\(User.sharedInstance.email)'")
+        let reviews = DatabaseManager.sharedInstance.executeQuery(str: "SELECT ReviewerMail, Comment, Rating FROM Review WHERE ReviewedMail = '\(email)'")
         
         print("reviews: \(reviews)")
         

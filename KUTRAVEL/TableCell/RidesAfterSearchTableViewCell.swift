@@ -8,12 +8,11 @@ class RidesAfterSearchTableViewCell: UITableViewCell {
     @IBOutlet weak var toLocationLabel: UILabel!
     @IBOutlet weak var sendHitchButton: UIButton!
     @IBOutlet weak var dateLabel: UILabel!
-    @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var fullNameLabel: UILabel!
     @IBOutlet weak var majorLabel: UILabel!
     @IBOutlet weak var moneyLabel: UILabel!
     
-    @IBOutlet weak var profilePictureImageView: UIImageView!
+    @IBOutlet weak var reviewLabel: UILabel!
     
     var hitchARideBtn: (() -> ())?
     

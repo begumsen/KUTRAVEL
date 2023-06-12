@@ -11,7 +11,7 @@ class HistoryOfHitchhikesTableViewCell: UITableViewCell {
     @IBOutlet weak var moneyLabel: UILabel!
     @IBOutlet weak var majorLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
-    @IBOutlet weak var timeLabel: UILabel!
+
     @IBOutlet weak var statusButton: UIButton!
     
     override func awakeFromNib() {

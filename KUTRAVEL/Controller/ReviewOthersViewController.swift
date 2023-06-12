@@ -1,9 +1,3 @@
-//
-//  ReviewOthersViewController.swift
-//  KUTRAVEL
-//
-//  Created by Begum Sen on 25.05.2023.
-//
 
 import UIKit
 

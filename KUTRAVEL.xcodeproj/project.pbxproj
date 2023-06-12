@@ -14,8 +14,6 @@
 		1EB978192A1E618600C2D42B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978162A1E618200C2D42B /* SignUpViewController.swift */; };
 		1EB9781A2A1E618600C2D42B /* ProfileScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978172A1E618400C2D42B /* ProfileScreenViewController.swift */; };
 		1EB9781B2A1E618600C2D42B /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978182A1E618600C2D42B /* ResetPasswordViewController.swift */; };
-		1EB978222A1E61E000C2D42B /* HistoryOfHitchhikesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9781C2A1E61D300C2D42B /* HistoryOfHitchhikesTableViewCell.swift */; };
-		1EB978232A1E61E000C2D42B /* HistoryOfRidesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9781D2A1E61D500C2D42B /* HistoryOfRidesTableViewCell.swift */; };
 		1EB978242A1E61E000C2D42B /* HitchListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9781E2A1E61D900C2D42B /* HitchListTableViewCell.swift */; };
 		1EB978252A1E61E000C2D42B /* RideListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9781F2A1E61DC00C2D42B /* RideListTableViewCell.swift */; };
 		1EB978262A1E61E000C2D42B /* RidesAfterSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB978202A1E61DE00C2D42B /* RidesAfterSearchTableViewCell.swift */; };
@@ -107,8 +105,6 @@
 		1EB978162A1E618200C2D42B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		1EB978172A1E618400C2D42B /* ProfileScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileScreenViewController.swift; sourceTree = "<group>"; };
 		1EB978182A1E618600C2D42B /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
-		1EB9781C2A1E61D300C2D42B /* HistoryOfHitchhikesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryOfHitchhikesTableViewCell.swift; sourceTree = "<group>"; };
-		1EB9781D2A1E61D500C2D42B /* HistoryOfRidesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryOfRidesTableViewCell.swift; sourceTree = "<group>"; };
 		1EB9781E2A1E61D900C2D42B /* HitchListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HitchListTableViewCell.swift; sourceTree = "<group>"; };
 		1EB9781F2A1E61DC00C2D42B /* RideListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideListTableViewCell.swift; sourceTree = "<group>"; };
 		1EB978202A1E61DE00C2D42B /* RidesAfterSearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidesAfterSearchTableViewCell.swift; sourceTree = "<group>"; };
@@ -337,8 +333,6 @@
 			isa = PBXGroup;
 			children = (
 				1EB978882A1F5E6200C2D42B /* ReviewOthersTableViewCell.swift */,
-				1EB9781C2A1E61D300C2D42B /* HistoryOfHitchhikesTableViewCell.swift */,
-				1EB9781D2A1E61D500C2D42B /* HistoryOfRidesTableViewCell.swift */,
 				1EB9781E2A1E61D900C2D42B /* HitchListTableViewCell.swift */,
 				1EB9781F2A1E61DC00C2D42B /* RideListTableViewCell.swift */,
 				1EB978212A1E61E000C2D42B /* RideRequestTableViewCell.swift */,
@@ -634,7 +628,6 @@
 				1EBFE3682A1D6544001C2EA3 /* LogInViewController.swift in Sources */,
 				1E2E67B92A2107B7003F5FC4 /* StatsDataSource.swift in Sources */,
 				1EB978872A1F5E3E00C2D42B /* District.swift in Sources */,
-				1EB978222A1E61E000C2D42B /* HistoryOfHitchhikesTableViewCell.swift in Sources */,
 				5459231B2A1FAF8C00EEEBB6 /* SearchRideViewController.swift in Sources */,
 				1EB978712A1F5D5500C2D42B /* RideRequestsViewController.swift in Sources */,
 				1EB978732A1F5D8400C2D42B /* PublishRideViewController.swift in Sources */,
@@ -652,7 +645,6 @@
 				1EB9787D2A1F5DED00C2D42B /* RideRequestDataSource.swift in Sources */,
 				1EB978372A1E623300C2D42B /* SignInDelegate.swift in Sources */,
 				5459231D2A1FAFB500EEEBB6 /* RidesViewController.swift in Sources */,
-				1EB978232A1E61E000C2D42B /* HistoryOfRidesTableViewCell.swift in Sources */,
 				545923252A1FB27300EEEBB6 /* RideSearch.swift in Sources */,
 				1EB978392A1E623300C2D42B /* SignUpDelegate.swift in Sources */,
 				54D4FF3C2A1E9F2500E237F9 /* MyHitchesDataDelegate.swift in Sources */,
